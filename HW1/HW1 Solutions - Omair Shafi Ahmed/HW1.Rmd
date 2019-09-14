@@ -1,0 +1,549 @@
+---
+title: "HW1"
+author: "Omair Shafi Ahmed"
+date: "9/18/2017"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+# Homework 1
+
+## PART A
+
+### Problem 1
+
+Create side-by-side boxplots of the distances flown between airports for each carrier. Do some airlines routinely fly longer routes than others?
+
+```{r}
+
+if(!require(ggplot2)) install.packages("ggplot2",repos = "http://cran.us.r-project.org")
+
+if(!require(nycflights13)) install.packages("nycflights13",repos = "http://cran.us.r-project.org")
+
+#if(!require(pdflatex)) install.packages("pdflatex",repos = "http://cran.us.r-project.org")
+
+if(!require(tidyverse)) install.packages("tidyverse",repos = "http://cran.us.r-project.org")
+
+if(!require(maps)) install.packages("maps",repos = "http://cran.us.r-project.org", dependencies = TRUE)
+
+if(!require(measurements)) install.packages("measurements",repos = "http://cran.us.r-project.org", dependencies = TRUE)
+
+library('ggplot2')
+library('nycflights13')
+temp = nycflights13::flights
+ggplot(data=temp, mapping=aes(x=carrier, y=distance)) + geom_boxplot()
+```
+
+
+Visually, certain flights such as UA, HA and F9 do fly longer routes. HA has a median of 4983 miles, whereas UA has a median of 1400. 
+
+```{r}
+median(temp[which(temp$carrier=='HA'), ]$distance)
+```
+
+
+```{r}
+median(temp[which(temp$carrier=='UA'), ]$distance)
+```
+
+
+This is significantly higher than the median of the entire dataset, which happens to be 872.
+
+```{r}
+median(temp$distance)
+```
+
+
+We could go ahead a step futher and identify all airlines that have their median atleast 1.5x that of the entire dataset.
+
+```{r}
+aggregated_temp <- aggregate(temp[,c("distance")], list(temp$carrier), median)
+aggregated_temp[which(aggregated_temp$distance > (median(temp$distance * 1.5))), ]
+```
+
+
+###Problem 2
+
+For each destination, calculate the proportion of arriving flights delayed by one hour or more, and then plot these values against the mean distance flown to each destination.
+
+The proportion of flights arriving by one hour or more are:
+
+```{r}
+nrow(temp[which(temp$arr_delay > 60), ])/nrow(temp)
+```
+
+
+Calculating the proportion of flights delayed by more than an hour, for each destination.
+
+```{r}
+delay_more_than_hour <- temp[which(temp$arr_delay>60), ]
+
+delay_aggregate <- aggregate(delay_more_than_hour[,c("arr_delay")], list(delay_more_than_hour$dest), length)
+
+delay_all <- aggregate(temp[,c("arr_delay")], list(temp$dest), length)
+
+delay_proportion <- merge(delay_aggregate,delay_all,by="Group.1")
+
+delay_proportion$proportion <- delay_proportion$arr_delay.x/delay_proportion$arr_delay.y
+
+delay_proportion
+```
+
+
+Renaming column names
+
+```{r}
+names(delay_proportion)[names(delay_proportion) == 'Group.1'] <- "Destination"
+names(delay_proportion)[names(delay_proportion) == 'arr_delay.x'] <- "Delayed"
+names(delay_proportion)[names(delay_proportion) == 'arr_delay.y'] <- "Total"
+```
+
+
+Calculating mean distance flown to each destination and joining back
+
+```{r}
+mean_distance <- aggregate(temp[, c("distance")], list(temp$dest), mean)
+names(mean_distance)[names(mean_distance) == 'Group.1'] <- "Destination"
+names(mean_distance)[names(mean_distance) == 'distance'] <- "mean_distance"
+delay_proportion <- merge(delay_proportion, mean_distance)
+delay_proportion
+```
+
+
+Edit the plot to add a smoothed line and a visual representation of the total number of flights for each destination
+
+```{r}
+ggplot(data = delay_proportion, aes(x=mean_distance, y=proportion, size=Total)) + geom_point(alpha=1/2) + geom_smooth() + xlab('Mean Distance') + ylab('Proportion of Delayed Flights')
+```
+
+
+What does the plot tell you about the relationship between flight distance and delays?
+
+According to the plot the proportion of flights delayed is, in general, inversly proportional to the mean distance to the destination.
+
+
+
+###Problem 3
+Create two bar plots that characterize each carrier by their delays. One should show the proportion of arriving flights delayed by one hour or more, and the other should show the mean arrival delay time for each carrier.
+
+Which airlines have the worst delays? Which are the most consistently on time or ahead of schedule?
+
+
+Calculating delay proprtion by carrier, first.
+
+```{r}
+
+delay_aggregate_by_car <- aggregate(delay_more_than_hour[,c("arr_delay")], list(delay_more_than_hour$carrier), length)
+
+delay_all_car <- aggregate(temp[,c("arr_delay")], list(temp$carrier), length)
+
+delay_proportion_by_car <- merge(delay_aggregate_by_car,delay_all_car,by="Group.1")
+
+delay_proportion_by_car$proportion <- delay_proportion_by_car$arr_delay.x/delay_proportion_by_car$arr_delay.y
+
+names(delay_proportion_by_car)[names(delay_proportion_by_car) == 'Group.1'] <- "Carrier"
+
+delay_proportion_by_car
+
+```
+
+
+
+Drawing bar chart for Carriers with worst delays
+
+```{r}
+ggplot(delay_proportion_by_car) + geom_col(aes(x=Carrier, y=proportion)) + xlab('Carrier') + ylab('Proportion of Flights Delayed')
+```
+
+It does appear as if airlines such as EV, F9, FL, OO and YV do actually perform worse, as far as delay is concerned. Over 10% of their flights are delayed by over an hour.
+
+
+
+Drawing bar chart for mean arrival delay time for each carrier
+
+```{r}
+
+mean_arrival_delay <- temp %>% group_by(carrier) %>% summarise(mean_arr_delay = mean(arr_delay, na.rm=TRUE))
+
+ggplot(mean_arrival_delay) + geom_col(aes(x=carrier, y=mean_arr_delay)) + xlab('Carrier') + ylab('Mean Arrival Delay')
+
+```
+
+Carriers like AS and HA are consistently ahead of schedule, whereas flights such as AA, DL and VX have the least amount of delays.
+
+
+
+##Part B
+
+
+Create histograms showing the distribution of the amount of Radium-228 in water samples for each EPA section. Do you notice anything odd?
+
+
+Importing Tidyverse
+```{r}
+library(tidyverse)
+EPA_data <- read_csv('/Users/omairs/Documents/Masters/DS 5110/HW1/EPA.csv')
+```
+
+
+Plotting Radium 228 levels in water samples in each EPA section
+```{r}
+EPA_filtered = EPA_data[c('Which EPA Section is This From?', 'Amount of Radium228')]
+
+ggplot(data=EPA_filtered, aes(EPA_filtered$'Amount of Radium228')) + geom_histogram() + facet_wrap(~ EPA_filtered$'Which EPA Section is This From?') + xlab('Amount of Radium228')
+```
+
+Filtering out negative values
+```{r}
+
+EPA_filtered_positive = EPA_filtered[which(EPA_filtered['Amount of Radium228'] > 0),]
+
+
+ggplot(data=EPA_filtered_positive, aes(EPA_filtered_positive$'Amount of Radium228')) + geom_histogram() + facet_wrap(~ EPA_filtered_positive$'Which EPA Section is This From?') + xlab('Amount of Radium228')
+```
+
+
+Create bar plots showing the mean concentrations of Uranium-234, Uranium-235, and Uranium-238 in water samples at each EPA section for each EPA risk rating, using facets for each EPA section.
+
+```{r}
+
+EPA_Uranium <- EPA_data[c('Which EPA Section is This From?', 'Amount of Uranium234', 'Amount of Uranium235', 'Amount of Uranium238', 'US EPA Risk Rating')]
+
+EPA_Uranium = EPA_Uranium %>% group_by(`Which EPA Section is This From?`
+                                        ,`US EPA Risk Rating`) %>% 
+                                 summarize(`Mean Uranium` = mean(mean(`Amount of Uranium234`)
+                                                          ,mean(`Amount of Uranium235`)
+                                                          ,mean(`Amount of Uranium238`), na.rm=TRUE))
+
+ggplot(data=EPA_Uranium) + geom_col(aes(x=EPA_Uranium$'US EPA Risk Rating', y=EPA_Uranium$'Mean Uranium')) + facet_wrap(~ EPA_Uranium$'Which EPA Section is This From?') + xlab('US EPA Risk Rating') + ylab('Avg Uranium')
+```
+
+
+
+Create another set of bar plots with the same information, but without facets, using color to indicate EPA risk rating instead.
+
+```{r}
+
+ggplot(data=EPA_Uranium) + geom_col(aes(x=EPA_Uranium$'US EPA Risk Rating', y=EPA_Uranium$'Mean Uranium', fill = EPA_Uranium$'Which EPA Section is This From?'), position = 'dodge') + xlab('US EPA Risk Rating') + ylab('Avg Uranium')
+
+```
+
+Plot a map of the region (you may want to adjust the plotting limits to an appropriate “zoom” level), and overlay the locations of the water sampling sites on the map, using appropriate visual representations to indicate the EPA risk rating and the amount of Uranium-238 measured at each site.
+
+```{r}
+
+library(maps)
+four_corners <- map_data("state", region=c("arizona", "new mexico", "utah", "colorado"))
+
+
+
+EPA_data$latitude_conv <- as.numeric(conv_unit(EPA_data$Latitude, from='deg_min_sec', to='dec_deg'))
+EPA_data$longitude_conv <-  - as.numeric(conv_unit(EPA_data$Longitude, from='deg_min_sec', to='dec_deg'))
+
+
+ggplot(four_corners) + geom_polygon(mapping=aes(x=long, y=lat, group=group), fill=NA, color="black") + coord_map() + geom_point(data = EPA_data, aes(x= EPA_data$longitude_conv, y=EPA_data$latitude_conv))
+
+```
+
+
+Zooming in and overlaying the data
+
+```{r}
+ggplot(four_corners) + geom_polygon(mapping=aes(x=long, y=lat, group=group), fill=NA, color="black") + coord_map(xlim=c(-107, -113), ylim=c(35, 37.5)) + geom_point(data = EPA_data, aes(x= EPA_data$longitude_conv, y=EPA_data$latitude_conv, size=`Amount of Uranium238`, color=`US EPA Risk Rating`, alpha=1/50))
+```
+
+
+
+
+
+
+##Part C
+
+###Problem 7
+
+Create a new data.frame with the following columns:
+• The total number of students enrolled at each school
+• The total number of Black students enrolled at each school
+• The total number of students who received one or more in-school suspension
+• The number of Black students who received one or more in-school suspension
+• The proportion of students at each school who are Black
+• The proportino of students who received one or more in-school suspension who are Black
+
+```{r}
+CRDC = read_csv('./crdc201314csv/CRDC2013_14_SCH.csv' ,na = c("-2", "-5", "-9"))
+
+CRDC_7 = select(CRDC, 'SCH_NAME', starts_with('TOT_ENR_'), starts_with('SCH_ENR_BL_'), starts_with('TOT_DISCWODIS_ISS_'), starts_with('TOT_DISCWDIS_ISS_IDEA_'), starts_with('SCH_DISCWODIS_ISS_BL_'), starts_with('SCH_DISCWDIS_ISS_IDEA_BL_'))
+
+CRDC_7_mutated = mutate(CRDC_7, 'Total Enrolled' = CRDC_7$'TOT_ENR_M' + CRDC_7$'TOT_ENR_F',
+                'Total Enrolled Black' = CRDC_7$'SCH_ENR_BL_M' + CRDC_7$'SCH_ENR_BL_F',
+                'Total In School Suspensions' = CRDC_7$'TOT_DISCWODIS_ISS_M' 
+                                              + CRDC_7$'TOT_DISCWODIS_ISS_F' 
+                                              + CRDC_7$'TOT_DISCWDIS_ISS_IDEA_M' 
+                                              + CRDC_7$'TOT_DISCWDIS_ISS_IDEA_F',
+                'Total In School Suspensions Black' = CRDC_7$'SCH_DISCWODIS_ISS_BL_M' 
+                                                    + CRDC_7$'SCH_DISCWODIS_ISS_BL_F'
+                                                    + CRDC_7$'SCH_DISCWDIS_ISS_IDEA_BL_M'
+                                                    + CRDC_7$'SCH_DISCWDIS_ISS_IDEA_BL_F')
+
+CRDC_7_mutated <- CRDC_7_mutated[c('Total Enrolled', 'Total Enrolled Black', 'Total In School Suspensions', 'Total In School Suspensions Black')]
+
+
+CRDC_7_mutated <- mutate(CRDC_7_mutated, 'Proportion Who Are Black' 
+                        = CRDC_7_mutated$'Total Enrolled Black'
+                          /CRDC_7_mutated$'Total Enrolled',
+                        'Proportion of Suspensions Black' 
+                        = CRDC_7_mutated$'Total In School Suspensions Black'/
+                          CRDC_7_mutated$'Total In School Suspensions')
+
+CRDC_7_mutated
+```
+
+Plot the proportion of Black students at each school versus the proportion of suspended students who are Black. Include a smoothing line on the plot.
+
+```{r}
+ggplot(data = CRDC_7_mutated, aes(x=CRDC_7_mutated$'Proportion Who Are Black', y=CRDC_7_mutated$'Proportion of Suspensions Black')) + geom_point(alpha = 1/100) + geom_smooth() + xlab('Proportion Who Are Black') + ylab('Proportion of Suspensions Black')
+```
+
+What do you observe in the plot? Does the plot indicate an over- or under-representation of Black students in in-school suspensions?
+
+The smooth line is curved upwards, indicating that there is an over representation of Black students in in-school suspensions. For the proportion of in-class suspensions to have been commensurate with the proportion of Black students, the smoothened line should have been linear at about 45 degrees.
+
+
+The proportion of Black students suspended across all schools
+```{r}
+sum(CRDC_7_mutated$'Total In School Suspensions Black', na.rm=TRUE) / sum(CRDC_7_mutated$'Total Enrolled Black', na.rm=TRUE)
+```
+
+
+The proportion of all students suspended across all schools
+
+```{r}
+sum(CRDC_7_mutated$'Total In School Suspensions', na.rm=TRUE) / sum(CRDC_7_mutated$'Total Enrolled', na.rm=TRUE)
+```
+
+
+##Problem 8
+
+Create a new data.frame containing only schools that use corporal punishment with the following columns:
+• The total number of students enrolled at each school
+• The total number of disabled students (under IDEA and/or 504) at each school
+• The total number of students who were disciplined with corporal punishment
+• The number of disabled students who were disciplined with corporal punishment
+• The proportion of students at each school who are disabled
+• The proportion of students who were disciplined with corporal punishment who are disabled
+
+```{r}
+
+CRDC_8 = select(CRDC, 'SCH_NAME', starts_with('TOT_ENR_'), starts_with('SCH_ENR_IDEA_'), starts_with('TOT_504ENR_'), starts_with('TOT_DISCWODIS_CORP_'), starts_with('TOT_DISCWDIS_CORP_IDEA_'), starts_with('SCH_DISCWDIS_CORP_504_'))
+
+
+
+CRDC_8_mutated <- mutate(CRDC_8, 'Total Enrolled' = CRDC_8$'TOT_ENR_M' + CRDC_8$'TOT_ENR_F',
+                'Total Enrolled Disabled' = CRDC_8$'SCH_ENR_IDEA_M' + CRDC_8$'SCH_ENR_IDEA_F'
+                                            + CRDC_8$'TOT_504ENR_M' + CRDC_8$'TOT_504ENR_F',
+                'Total Corporal Punishment' = CRDC_8$'TOT_DISCWODIS_CORP_M' 
+                                              + CRDC_8$'TOT_DISCWODIS_CORP_F'
+                                              + CRDC_8$'TOT_DISCWDIS_CORP_IDEA_M' 
+                                              + CRDC_8$'TOT_DISCWDIS_CORP_IDEA_F'
+                                              + CRDC_8$'SCH_DISCWDIS_CORP_504_M'
+                                              + CRDC_8$'SCH_DISCWDIS_CORP_504_F',
+                'Total Corporal Punishment Disabled' = CRDC_8$'TOT_DISCWDIS_CORP_IDEA_M' 
+                                                    + CRDC_8$'TOT_DISCWDIS_CORP_IDEA_F'
+                                                    + CRDC_8$'SCH_DISCWDIS_CORP_504_M'
+                                                    + CRDC_8$'SCH_DISCWDIS_CORP_504_F')
+
+CRDC_8_mutated <- mutate(CRDC_8_mutated, 'Proportion of Disabled Students' 
+                                  = CRDC_8_mutated$'Total Enrolled Disabled' 
+                                    / CRDC_8_mutated$'Total Enrolled',
+                                  'Proportion of Disciplined Students Disabled'
+                                  = CRDC_8_mutated$'Total Corporal Punishment Disabled' 
+                                    / CRDC_8_mutated$'Total Corporal Punishment')
+
+CRDC_8_mutated <- CRDC_8_mutated[c('Total Enrolled', 'Total Enrolled Disabled', 'Total Corporal Punishment', 'Total Corporal Punishment Disabled', 'Proportion of Disabled Students', 'Proportion of Disciplined Students Disabled')]
+
+CRDC_8_mutated
+```
+
+Plot the proportion of disabled students at each school versus the proportion of disciplined students who disabled. Include a smoothing line on the plot.
+
+```{r}
+
+ggplot(data = CRDC_8_mutated, aes(x=CRDC_8_mutated$'Proportion of Disabled Students', y=CRDC_8_mutated$'Proportion of Disciplined Students Disabled'), na.rm= TRUE) + geom_point(alpha=1/10) + geom_smooth() + xlab('Proportion of Disabled Students') + ylab('Proportion of Disciplined Students Disabled')
+
+```
+
+
+What do you observe in the plot? Does the plot indicate an over- or under-representation of disabled students among students who are disciplined with corporeal punishment?
+
+There is an over representation of Disabled students amongst students disciplined using corporal punishment.
+
+
+
+Calculate the overall proportion of disabled students across all schools and the overall proportion of disciplined students who are disabled across all schools.
+
+
+Overall proportion of disciplined students who are disabled across all schools
+
+```{r}
+sum(CRDC_8_mutated$'Total Corporal Punishment Disabled', na.rm=TRUE) /
+  sum(CRDC_8_mutated$'Total Corporal Punishment', na.rm = TRUE)
+```
+
+Proportion of disabled students, overall:
+
+```{r}
+
+sum(CRDC_8_mutated$'Total Enrolled Disabled', na.rm=TRUE) /
+  sum(CRDC_8_mutated$'Total Enrolled', na.rm = TRUE)
+
+```
+
+##Problem 9
+
+
+• The total number of students enrolled at each school
+• The total number of Black and Hispanic students at each school
+• The total number of students in the school’s GT program
+• The number of students in the GT program who are Black or Hispanic
+• The proportion of students at each school who are Black or Hispanic
+• The proportion of students in the GT program who are Black or Hispanic
+
+```{r}
+
+CRDC_9 = select(CRDC, 'SCH_NAME', starts_with('TOT_ENR_')
+                , starts_with('SCH_ENR_BL_')
+                , starts_with('SCH_ENR_HP_')
+                , starts_with('TOT_GTENR_')
+                , starts_with('SCH_GTENR_BL_')
+                , starts_with('SCH_GTENR_HP_'))
+
+
+CRDC_9_mutated <- mutate(CRDC_9, 'Total Enrolled' = CRDC_9$'TOT_ENR_M' + CRDC_9$'TOT_ENR_F',
+                          'Total Enrolled Black and Hispanic' 
+                          = CRDC_9$'SCH_ENR_BL_M' + CRDC_9$'SCH_ENR_BL_F'
+                          + CRDC_9$'SCH_ENR_HP_M' + CRDC_9$'SCH_ENR_HP_F',
+                          'Total Enrolled in GT'
+                          = CRDC_9$'TOT_GTENR_M' + CRDC_9$'TOT_GTENR_F',
+                          'Total Enrolled in GT Black and Hispanics'
+                          = CRDC_9$'SCH_GTENR_BL_M' + CRDC_9$'SCH_GTENR_BL_F'
+                          +CRDC_9$'SCH_GTENR_HP_M' + CRDC_9$'SCH_GTENR_HP_F')
+
+
+CRDC_9_mutated <- CRDC_9_mutated[c('Total Enrolled'
+                   , 'Total Enrolled Black and Hispanic'
+                   , 'Total Enrolled in GT'
+                   , 'Total Enrolled in GT Black and Hispanics')]
+
+
+CRDC_9_mutated = mutate(CRDC_9_mutated, 'Proportion of Black and Hispanic' =
+                          CRDC_9_mutated$'Total Enrolled Black and Hispanic' 
+                         / CRDC_9_mutated$'Total Enrolled',
+                        'Proportion of Black and Hispanic in GT' = 
+                          CRDC_9_mutated$'Total Enrolled in GT Black and Hispanics'
+                          / CRDC_9_mutated$'Total Enrolled in GT')
+
+CRDC_9_mutated
+```
+
+Plot the proportion of Black and Hispanic students at each school versus the proportion of GT students who Black or Hispanic. Include a smoothing line on the plot.
+
+```{r}
+
+ggplot(data = CRDC_9_mutated, aes(x=CRDC_9_mutated$'Proportion of Black and Hispanic', y=CRDC_9_mutated$'Proportion of Black and Hispanic in GT'), na.rm= TRUE) + geom_point(alpha=1/50) + geom_smooth() + xlab('Proportion of Black and Hispanic') + ylab('Proportion of Black and Hispanic in GT')
+```
+
+There is a clear under-representastion of Black and Hispanic students in the GT program as the smooth line curves downwards.
+
+
+
+Overall proportion of Black and Hispanic students across all schools
+```{r}
+
+sum(CRDC_9_mutated$'Total Enrolled Black and Hispanic', na.rm=TRUE) /
+  sum(CRDC_9_mutated$'Total Enrolled', na.rm = TRUE)
+
+```
+
+
+Overall proportion of GT students who are Black or Hispanic
+```{r}
+
+sum(CRDC_9_mutated$'Total Enrolled in GT Black and Hispanics', na.rm=TRUE) /
+  sum(CRDC_9_mutated$'Total Enrolled in GT', na.rm = TRUE)
+
+```
+
+## Problem 10
+
+Creating a new Dataframe with:
+
+• The total number of students enrolled at each school
+• The total number of Multiracial students at each school
+• The total number of students in the school’s GT program
+• The number of multiracial students in the GT program who are Black or Hispanic
+• The proportion of students at each school who are Multiracial.
+• The proportion of students in the GT program who are Multiracial.
+
+
+```{r}
+
+CRDC_10 = select(CRDC, 'SCH_NAME', starts_with('TOT_ENR_')
+                , starts_with('SCH_ENR_TR_')
+                , starts_with('TOT_GTENR_')
+                , starts_with('SCH_GTENR_TR_'))
+
+
+CRDC_10_mutated <- mutate(CRDC_10, 'Total Enrolled' = CRDC_10$'TOT_ENR_M' + CRDC_10$'TOT_ENR_F',
+                          'Total Enrolled Mixed Race' 
+                          = CRDC_10$'SCH_ENR_TR_M' + CRDC_10$'SCH_ENR_TR_F',
+                          'Total Enrolled in GT'
+                          = CRDC_10$'TOT_GTENR_M' + CRDC_10$'TOT_GTENR_F',
+                          'Total Enrolled in GT Mixed Race'
+                          = CRDC_10$'SCH_GTENR_TR_M' + CRDC_10$'SCH_GTENR_TR_F')
+
+
+CRDC_10_mutated <- CRDC_10_mutated[c('Total Enrolled'
+                   , 'Total Enrolled Mixed Race'
+                   , 'Total Enrolled in GT'
+                   , 'Total Enrolled in GT Mixed Race')]
+
+
+CRDC_10_mutated = mutate(CRDC_10_mutated, 'Proportion of Mixed Race' =
+                          CRDC_10_mutated$'Total Enrolled Mixed Race' 
+                         / CRDC_10_mutated$'Total Enrolled',
+                        'Proportion of Mixed Race in GT' = 
+                          CRDC_10_mutated$'Total Enrolled in GT Mixed Race'
+                          / CRDC_10_mutated$'Total Enrolled in GT')
+
+CRDC_10_mutated
+
+```
+
+```{r}
+
+ggplot(data = CRDC_10_mutated, aes(x=CRDC_10_mutated$'Proportion of Mixed Race', y=CRDC_10_mutated$'Proportion of Mixed Race in GT'), na.rm= TRUE) + geom_point(alpha=1/10) + geom_smooth() + xlim(0,0.5) + ylim(0,0.5) + xlab('Proportion of Mixed Race') + ylab('Proportion of Mixed Race in GT')
+
+
+```
+Overall proportion of Black and Hispanic students across all schools
+```{r}
+
+sum(CRDC_10_mutated$'Total Enrolled Mixed Race', na.rm=TRUE) /
+  sum(CRDC_10_mutated$'Total Enrolled', na.rm = TRUE)
+
+```
+
+
+Overall proportion of GT students who are Black or Hispanic
+```{r}
+
+sum(CRDC_10_mutated$'Total Enrolled in GT Mixed Race', na.rm=TRUE) /
+  sum(CRDC_10_mutated$'Total Enrolled in GT', na.rm = TRUE)
+
+```

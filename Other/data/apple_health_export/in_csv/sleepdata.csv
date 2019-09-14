@@ -1,0 +1,543 @@
+Start;End;Sleep quality;Time in bed;Wake up;Sleep Notes;Heart rate;Activity (steps)
+2015-12-10 16:16:01;2015-12-10 22:58:45;59%;6:42;:);;74;2890
+2015-12-11 20:27:39;2015-12-12 02:06:00;51%;5:38;:|;;99;814
+2015-12-12 15:11:06;2015-12-12 21:43:16;57%;6:32;:);;82;443
+2015-12-13 16:26:05;2015-12-13 22:00:50;56%;5:34;:|;Drank tea;73;718
+2015-12-14 15:44:14;2015-12-14 19:40:23;33%;3:56;:|;Ate late:Stressful day;79;1255
+2015-12-15 13:47:42;2015-12-15 22:55:34;74%;9:07;:);Ate late:Drank coffee:Stressful day;78;4112
+2015-12-16 14:26:37;2015-12-16 19:41:55;47%;5:15;:);;78;4568
+2015-12-17 14:49:49;2015-12-17 19:52:15;49%;5:02;:|;AC while sleeping:Good day:Hot Weather:Sex:Stressful day;;3864
+2015-12-18 15:28:05;2015-12-18 21:58:35;54%;6:30;:);Drank second coffee:Stressful day;88;2794
+2015-12-19 15:10:41;2015-12-19 23:30:32;62%;8:19;:);AC while sleeping:Hot Weather:Sex;61;326
+2015-12-20 16:42:11;2015-12-20 22:57:38;59%;6:15;:);Sex;91;1340
+2015-12-21 17:43:50;2015-12-21 23:58:05;63%;6:14;:|;Drank coffee:Sex;85;3775
+2015-12-22 15:30:09;2015-12-22 20:55:03;57%;5:24;:);Red bull:Sex;80;3213
+2015-12-23 16:18:22;2015-12-23 21:32:57;58%;5:14;:|;Drank coffee:Sex:Worked out;90;2938
+2015-12-24 16:02:49;2015-12-24 21:35:45;61%;5:32;:);Ate late:Drank tea:Good day;84;1842
+2015-12-25 18:36:07;2015-12-25 22:54:13;46%;4:18;:);AC while sleeping:Ate late:Drank Alcohol:Drank tea:Good day;76;3254
+2015-12-26 15:58:07;2015-12-26 21:53:13;61%;5:55;:);Sex;93;1986
+2015-12-27 14:04:03;2015-12-27 19:30:30;61%;5:26;:);Stressful day;79;128
+2015-12-28 14:45:36;2015-12-28 19:57:54;51%;5:12;:);AC while sleeping:Drank coffee:Hot Weather:Worked out;;3157
+2015-12-29 18:25:26;2015-12-29 23:58:56;56%;5:33;:|;Good day:Stressful day;88;4815
+2015-12-30 16:56:36;2015-12-30 22:31:44;56%;5:35;:);Drank coffee:Sleeping later than 3?:Stressful day:Tiring day:Worked out;88;2838
+2015-12-31 19:15:14;2016-01-01 01:56:23;61%;6:41;:|;Drank Alcohol:Good day:Lazy day:Sleeping later than 3?;94;1691
+2016-01-01 18:48:15;2016-01-02 03:01:59;90%;8:13;:);Drank tea:Good day:Lazy day:Sex:Sleeping later than 3?;86;4401
+2016-01-02 17:51:09;2016-01-03 01:43:30;79%;7:52;:);Cold Weather:Good day:Lazy day:Red bull:Sex:Sleeping later than 3?:Tiring day;62;2690
+2016-01-03 17:46:11;2016-01-03 22:28:47;56%;4:42;:);Lazy day:Sex:Sleeping later than 3?;70;459
+2016-01-04 16:11:52;2016-01-04 22:21:05;68%;6:09;:);Drank coffee:Lazy day:Sex;66;2371
+2016-01-05 16:14:18;2016-01-05 23:28:54;44%;7:14;:|;Drank coffee:Good day:Lazy day:Sex;79;4157
+2016-01-08 11:11:57;2016-01-08 12:09:13;12%;0:57;:|;AC while sleeping:Drank coffee:Hot Weather:Stressful day;;1930
+2016-01-08 13:44:09;2016-01-08 21:41:33;78%;7:57;:|;AC while sleeping:Drank coffee:Hot Weather:Stressful day;71;0
+2016-01-09 17:04:18;2016-01-09 20:57:20;34%;3:53;:|;Sleeping later than 3?:Stressful day;101;1868
+2016-01-10 14:56:46;2016-01-10 20:59:01;56%;6:02;:|;Drank tea:Lazy day:Sex;95;417
+2016-01-11 17:12:59;2016-01-11 22:57:44;53%;5:44;:|;Good day:Sleeping later than 3?;67;2923
+2016-01-12 16:22:55;2016-01-12 22:57:47;68%;6:34;:);Drank coffee:Lazy day:Sleeping later than 3?:Tiring day;84;2808
+2016-01-13 15:16:39;2016-01-13 20:05:44;35%;4:49;:|;Drank coffee:Good day:Tiring day;73;2912
+2016-01-14 14:35:44;2016-01-14 19:34:15;51%;4:58;:|;Ate late:Cold Weather:Drank coffee:Drank second coffee:Good day:Tiring day;89;6932
+2016-01-14 19:37:38;2016-01-14 22:20:28;29%;2:42;:|;Cold Weather:Drank coffee:Drank second coffee:Sleeping later than 3?:Tiring day;71;0
+2016-01-16 15:56:02;2016-01-16 23:17:31;83%;7:21;:);Ate late:Drank Alcohol:Good day:Lazy day:Sex:Tiring day;91;2810
+2016-01-17 14:55:20;2016-01-17 19:57:34;43%;5:02;:|;Good day:Lazy day:Sex;92;1280
+2016-01-18 16:53:21;2016-01-18 22:00:15;63%;5:06;:|;Cold Weather:Good day:Sleeping later than 3?:Tiring day;72;6000
+2016-01-19 16:34:48;2016-01-19 21:48:50;61%;5:14;:|;Good day:Red bull:Sex:Sleeping later than 3?:Tiring day;72;3492
+2016-01-20 16:31:35;2016-01-20 21:27:31;45%;4:55;:);Drank Alcohol:Drank second coffee:Good day:Sex:Sleeping later than 3?:Stressful day:Tiring day;72;3860
+2016-01-21 15:18:38;2016-01-21 20:00:55;56%;4:42;:(;Drank tea:Good day:Sex;107;3466
+2016-01-22 17:31:03;2016-01-23 00:13:48;57%;6:42;:);Cold Weather:Drank coffee:Drank second coffee:Good day:Sex:Sleeping later than 3?;110;3729
+2016-01-23 15:29:42;2016-01-24 00:05:20;86%;8:35;:);Drank coffee:Good day:Sex;78;3032
+2016-01-24 16:22:48;2016-01-24 21:30:11;34%;5:07;;Ate late:Drank coffee:Drank second coffee:Good day:Sex:Tiring day;;5838
+2016-01-25 16:38:11;2016-01-25 22:30:35;69%;5:52;:);Sex:Sleeping later than 3?:Stressful day:Tiring day;82;1344
+2016-01-26 15:31:35;2016-01-26 21:26:47;61%;5:55;:|;Lazy day;78;1969
+2016-01-27 16:29:12;2016-01-27 22:19:45;50%;5:50;:);Cold Weather:Drank tea:Red bull:Sex:Sleeping later than 3?:Tiring day;70;2641
+2016-01-28 15:25:45;2016-01-28 21:01:02;53%;5:35;:|;Lazy day:Sex;73;181
+2016-01-29 18:55:12;2016-01-29 23:43:50;51%;4:48;:);Ate late:Drank Alcohol:Good day:Red bull:Sleeping later than 3?;71;3445
+2016-01-30 19:15:40;2016-01-31 00:57:56;61%;5:42;:|;Cold Weather:Good day:Sleeping later than 3?;94;5844
+2016-01-31 16:13:50;2016-01-31 22:13:48;67%;5:59;:|;Cold Weather:Good day:Sex;68;2135
+2016-02-01 16:46:16;2016-02-01 21:02:53;45%;4:16;:);Ate late:Cold Weather:Drank coffee:Drank second coffee:Sex:Sleeping later than 3?:Tiring day;75;3167
+2016-02-02 15:30:52;2016-02-02 21:11:50;60%;5:40;:);Cold Weather:Drank coffee:Good day:Sex:Tiring day;80;4767
+2016-02-03 13:27:57;2016-02-03 19:30:15;54%;6:02;:(;Hot Weather:Tiring day;86;3398
+2016-02-04 15:43:10;2016-02-04 20:51:09;61%;5:07;:|;Tiring day;80;4605
+2016-02-05 18:09:40;2016-02-06 01:58:54;95%;7:49;:);Cold Weather:Good day;94;5095
+2016-02-06 16:43:34;2016-02-07 01:00:29;100%;8:16;:);Lazy day:Sex:Sleeping later than 3?;99;1188
+2016-02-07 17:38:37;2016-02-07 23:29:31;47%;5:50;:);Drank tea:Good day:Hot Weather:Red bull:Sex:Sleeping later than 3?;84;692
+2016-02-08 16:40:57;2016-02-08 22:11:34;65%;5:30;:);Hot Weather:Sleeping later than 3?:Tiring day;69;2278
+2016-02-09 15:42:31;2016-02-09 20:58:47;56%;5:16;:|;Hot Weather:Stressful day;;2929
+2016-02-10 15:19:12;2016-02-10 21:58:25;62%;6:39;:);Drank coffee:Hot Weather:Tiring day;114;3459
+2016-02-11 14:07:50;2016-02-11 20:44:54;68%;6:37;:);Hot Weather:Red bull;85;4632
+2016-02-12 16:42:45;2016-02-13 00:07:24;84%;7:24;:);Drank coffee:Sleeping later than 3?:Tiring day;88;4467
+2016-02-16 16:12:48;2016-02-16 22:27:32;68%;6:14;:);Ate late:Drank coffee:Drank second coffee:Sex:Tiring day;77;5613
+2016-02-17 16:26:59;2016-02-17 22:29:19;65%;6:02;:(;Drank coffee:Sex:Tiring day;79;2071
+2016-02-18 15:29:56;2016-02-18 20:59:25;53%;5:29;:|;Red bull:Sex:Tiring day;79;3007
+2016-02-19 16:18:28;2016-02-19 20:53:44;54%;4:35;:|;Good day:Red bull:Sex:Tiring day;93;3718
+2016-02-20 16:26:20;2016-02-20 22:08:36;65%;5:42;:);Good day:Sex:Tiring day;86;3932
+2016-02-21 17:06:31;2016-02-21 22:56:22;67%;5:49;:);AC while sleeping:Hot Weather:Lazy day:Sleeping later than 3?;80;1179
+2016-02-22 16:34:00;2016-02-22 21:14:03;48%;4:40;:);Drank coffee:Hot Weather:Sex:Sleeping later than 3?;71;5243
+2016-02-23 16:07:10;2016-02-23 22:03:34;48%;5:56;:);AC while sleeping:Drank coffee:Hot Weather:Red bull:Stressful day;76;3614
+2016-02-24 15:24:50;2016-02-24 21:27:26;68%;6:02;:);AC while sleeping:Drank tea:Hot Weather:Stressful day:Tiring day;79;3085
+2016-02-25 17:20:42;2016-02-25 22:25:12;49%;5:04;:);AC while sleeping:Drank coffee:Hot Weather:Sleeping later than 3?;;3439
+2016-02-26 17:19:56;2016-02-26 21:07:05;48%;3:47;:|;Good day:Hot Weather:Red bull:Sex:Sleeping later than 3?:Stressful day:Tiring day;113;3599
+2016-02-27 16:55:21;2016-02-28 00:08:04;61%;7:12;:);Ate late:Good day:Lazy day:Sex:Sleeping later than 3?;77;2450
+2016-02-28 15:54:58;2016-02-28 20:49:22;42%;4:54;:);AC while sleeping:Good day:Lazy day:Sex;99;2101
+2016-02-29 12:42:15;2016-02-29 18:57:26;45%;6:15;:);AC while sleeping:Drank coffee:Hot Weather:Stressful day:Tiring day;76;6879
+2016-03-01 15:15:44;2016-03-01 19:44:12;52%;4:28;:);Ate late:Red bull:Stressful day:Tiring day;87;2826
+2016-03-02 14:57:10;2016-03-02 19:37:47;55%;4:40;:|;AC while sleeping:Hot Weather:Red bull:Sex:Tiring day;80;2775
+2016-03-04 14:30:55;2016-03-04 21:28:08;82%;6:57;:);AC while sleeping:Hot Weather:Stressful day:Tiring day;82;3652
+2016-03-05 17:42:40;2016-03-05 23:12:04;58%;5:29;:(;AC while sleeping:Drank coffee:Drank second coffee:Good day:Hot Weather:Lazy day:Sex:Sleeping later than 3?;98;3373
+2016-03-06 12:50:18;2016-03-06 19:27:46;68%;6:37;:);Lazy day:Sex;68;1818
+2016-03-07 14:47:03;2016-03-07 20:00:51;55%;5:13;:|;Drank Alcohol:Drank coffee:Drank second coffee:Good day;79;3904
+2016-03-08 13:25:15;2016-03-08 19:27:54;64%;6:02;:);AC while sleeping:Good day:Hot Weather:Red bull:Sex;;2705
+2016-03-09 14:15:05;2016-03-09 19:55:23;69%;5:40;:|;AC while sleeping:Drank coffee:Good day:Hot Weather:Sex:Tiring day;75;2713
+2016-03-10 12:31:56;2016-03-10 19:32:26;70%;7:00;:);Drank coffee:Hot Weather:Sex;78;2210
+2016-03-11 14:10:58;2016-03-11 17:41:21;32%;3:30;:(;AC while sleeping:Drank coffee:Hot Weather:Red bull:Stressful day;92;3168
+2016-03-12 11:04:12;2016-03-12 14:56:44;42%;3:52;:(;Cold Weather:Drank tea:Good day:Red bull:Sex:Tiring day;106;4210
+2016-03-15 16:15:57;2016-03-15 22:09:45;69%;5:53;:);AC while sleeping:Drank tea:Good day:Hot Weather:Sex;78;5565
+2016-03-16 16:13:52;2016-03-16 22:21:10;67%;6:07;:|;Hot Weather:Red bull:Sex;69;2520
+2016-03-17 15:07:50;2016-03-17 20:08:32;55%;5:00;:|;AC while sleeping:Good day:Hot Weather:Sex;78;5477
+2016-03-18 16:48:31;2016-03-19 00:30:43;85%;7:42;:(;AC while sleeping:Drank coffee:Drank second coffee:Hot Weather:Sex;84;2734
+2016-03-20 16:21:30;2016-03-20 22:01:26;63%;5:39;:);AC while sleeping:Hot Weather:Lazy day:Sex;69;2917
+2016-03-21 15:31:08;2016-03-21 20:59:20;50%;5:28;:|;AC while sleeping:Drank coffee:Drank second coffee:Hot Weather:Sex;77;2187
+2016-03-22 15:17:38;2016-03-22 20:51:43;54%;5:34;:(;AC while sleeping:Hot Weather:Sex:Worked out;81;3171
+2016-03-23 14:50:08;2016-03-23 20:27:59;62%;5:37;:|;AC while sleeping:Drank coffee:Hot Weather:Lazy day:Sex;;3748
+2016-03-24 19:32:31;2016-03-24 23:55:00;0%;0:00;;AC while sleeping:Drank coffee:Hot Weather:Sleeping later than 3?:Stressful day:Tiring day;;4643
+2016-03-25 14:05:45;2016-03-25 23:08:00;100%;9:02;:);AC while sleeping:Hot Weather:Stressful day:Tiring day;84;6055
+2016-03-26 15:35:12;2016-03-26 20:58:20;69%;5:23;:);AC while sleeping:Hot Weather:Stressful day:Tiring day;59;4466
+2016-04-11 18:56:02;2016-04-12 00:57:47;45%;6:01;;;;5269
+2016-04-12 19:16:23;2016-04-13 01:06:19;72%;5:49;:);AC while sleeping:Drank Alcohol:Hot Weather:Sex:Sleeping later than 3?;87;5077
+2016-04-13 14:38:02;2016-04-13 20:20:55;62%;5:42;:);AC while sleeping:Hot Weather:Sex;86;2844
+2016-04-14 18:02:54;2016-04-14 23:40:45;57%;5:37;:);AC while sleeping:Hot Weather:Sleeping later than 3?;86;3794
+2016-04-17 15:29:37;2016-04-17 21:28:57;65%;5:59;:(;AC while sleeping:Ate late:Good day:Hot Weather;81;3617
+2016-04-18 15:26:56;2016-04-18 20:29:08;56%;5:02;:);AC while sleeping:Drank coffee:Good day:Hot Weather:Sex;87;1756
+2016-04-19 15:29:28;2016-04-19 20:30:43;55%;5:01;:|;AC while sleeping:Drank coffee:Hot Weather:Sex;92;5064
+2016-04-20 15:23:50;2016-04-20 20:30:06;54%;5:06;:|;AC while sleeping:Ate late:Hot Weather:Tiring day;84;2806
+2016-04-21 16:07:03;2016-04-21 17:16:03;0%;0:00;;AC while sleeping:Drank coffee:Drank second coffee:Hot Weather;;3247
+2016-04-22 15:10:47;2016-04-22 22:11:05;89%;7:00;;AC while sleeping:Drank coffee:Good day:Hot Weather:Tiring day;;4122
+2016-04-24 12:39:52;2016-04-24 21:27:34;75%;8:47;:|;AC while sleeping:Hot Weather:Tiring day;104;1736
+2016-04-25 15:10:14;2016-04-25 22:05:44;75%;6:55;:|;AC while sleeping:Drank coffee:Hot Weather;;4148
+2016-04-26 14:40:38;2016-04-26 21:25:32;76%;6:44;:);AC while sleeping:Ate late:Good day:Hot Weather:Lazy day;78;1768
+2016-04-27 14:57:29;2016-04-27 20:27:58;62%;5:30;:|;AC while sleeping:Hot Weather:Sex;76;2432
+2016-04-28 14:52:39;2016-04-28 20:19:49;57%;5:27;:|;AC while sleeping:Drank coffee:Hot Weather:Sex:Tiring day;65;4646
+2016-04-29 15:00:06;2016-04-29 20:29:39;61%;5:29;:);AC while sleeping:Hot Weather:Sex:Tiring day;76;6686
+2016-04-30 18:59:13;2016-05-01 02:07:11;76%;7:07;:(;AC while sleeping:Good day:Hot Weather;78;3197
+2016-05-01 14:55:27;2016-05-01 20:29:20;60%;5:33;:|;AC while sleeping:Good day:Hot Weather;72;1296
+2016-05-02 15:38:28;2016-05-02 20:49:20;57%;5:10;:|;AC while sleeping:Drank coffee:Drank second coffee:Good day:Hot Weather:Sex;78;2604
+2016-05-03 15:04:28;2016-05-03 20:58:46;67%;5:54;:);AC while sleeping:Ate late:Drank coffee:Good day:Had bath before bed:Hot Weather:Sex;72;6398
+2016-05-04 16:02:52;2016-05-04 20:42:06;53%;4:39;:);AC while sleeping:Drank coffee:Drank tea:Good day:Hot Weather:Sex;103;6228
+2016-05-05 15:13:51;2016-05-05 20:11:24;60%;4:57;:);AC while sleeping:Good day:Hot Weather:Sex:Tiring day;86;2562
+2016-05-06 15:14:17;2016-05-06 15:47:56;7%;0:33;:|;Drank coffee:Drank tea:Good day:Sex:Tiring day;;3611
+2016-05-09 15:09:21;2016-05-09 20:30:02;52%;5:20;:|;AC while sleeping:Drank coffee:Drank tea:Good day:Hot Weather:Sex:Tiring day;81;2244
+2016-05-10 16:11:33;2016-05-10 22:02:49;69%;5:51;:|;AC while sleeping:Drank coffee:Drank tea:Had bath before bed:Hot Weather:Sex:Tiring day;99;4494
+2016-05-12 15:51:35;2016-05-12 20:22:07;53%;4:30;:);AC while sleeping:Ate late:Had bath before bed:Hot Weather:Tiring day;105;3830
+2016-05-16 14:50:25;2016-05-16 20:27:32;66%;5:37;:|;Good day:Hot Weather:Sex;69;2333
+2016-05-17 15:15:17;2016-05-17 20:08:07;55%;4:52;:(;AC while sleeping:Ate late:Drank second coffee:Hot Weather;81;5419
+2016-05-18 14:10:09;2016-05-18 19:30:43;66%;5:20;:);AC while sleeping:Drank tea:Hot Weather:Sex:Stressful day;83;4876
+2016-05-19 13:37:41;2016-05-19 19:22:00;58%;5:44;:);Drank tea;90;5009
+2016-05-22 15:08:50;2016-05-22 21:30:42;65%;6:21;:|;AC while sleeping:Good day:Hot Weather:Lazy day:Sex;75;295
+2016-05-23 16:21:46;2016-05-23 21:30:30;59%;5:08;:);AC while sleeping:Had bath before bed:Hot Weather:Red bull;73;5995
+2016-05-24 13:45:26;2016-05-24 20:23:30;72%;6:38;:);AC while sleeping:Hot Weather:Lazy day:Red bull;71;126
+2016-05-25 15:10:12;2016-05-25 20:36:54;62%;5:26;:|;AC while sleeping:Drank coffee:Hot Weather:Sex;94;3503
+2016-05-26 13:44:19;2016-05-26 20:34:53;74%;6:50;:);AC while sleeping:Drank coffee:Good day:Hot Weather:Sex;;3484
+2016-05-27 16:06:31;2016-05-27 21:44:13;68%;5:37;:);AC while sleeping:Ate late:Good day:Hot Weather:Sex;90;4073
+2016-05-28 16:12:02;2016-05-28 22:59:53;70%;6:47;:);AC while sleeping:Good day:Hot Weather:Lazy day:Sex;89;5088
+2016-05-29 18:20:05;2016-05-29 22:27:58;45%;4:07;:|;;;4452
+2016-05-30 15:14:05;2016-05-30 20:40:48;27%;5:26;:);Ate late:Drank coffee:Sex:Stressful day;80;4906
+2016-05-31 13:57:07;2016-05-31 20:24:07;71%;6:27;:);AC while sleeping:Ate late:Drank coffee:Hot Weather:Sex;85;3572
+2016-06-01 14:20:18;2016-06-01 20:29:59;60%;6:09;:);Drank coffee:Drank tea:Good day:Sex;78;4535
+2016-06-02 15:09:05;2016-06-02 20:46:23;66%;5:37;:);AC while sleeping:Drank coffee:Drank second coffee:Hot Weather:Lazy day:Sex;88;5149
+2016-06-03 15:55:01;2016-06-04 01:43:38;100%;9:48;:);Ate late:Drank tea:Good day:Had bath before bed:Red bull:Sex:Tiring day:Worked out;88;8354
+2016-06-04 15:11:44;2016-06-04 21:15:19;72%;6:03;:);Ate late:Drank coffee:Good day:Tiring day;81;1709
+2016-06-05 14:24:33;2016-06-05 20:42:28;66%;6:17;:);Ate late:Drank coffee:Sex:Worked out;72;3413
+2016-06-06 14:25:24;2016-06-06 17:49:57;38%;3:24;:|;Drank coffee:Good day:Red bull:Sex;;7011
+2016-06-06 18:52:23;2016-06-06 20:44:09;22%;1:51;:);Ate late:Drank coffee:Red bull;;0
+2016-06-07 14:02:57;2016-06-07 20:47:39;69%;6:44;:);AC while sleeping:Drank coffee:Hot Weather;102;4377
+2016-06-08 13:51:06;2016-06-08 20:41:56;84%;6:50;:);Headache:Sick:Stressful day;95;3233
+2016-06-10 14:58:16;2016-06-10 22:59:46;72%;8:01;:|;Cold Weather:Lazy day:Sex:Sick;85;796
+2016-06-11 14:42:51;2016-06-11 22:36:01;84%;7:53;:);Lazy day:Sex:Sick;89;1937
+2016-06-12 15:34:05;2016-06-12 21:51:08;58%;6:17;:|;Drank tea:Good day:Lazy day:Sex;97;1428
+2016-06-13 17:30:18;2016-06-13 22:49:38;55%;5:19;:);;;5066
+2016-06-14 14:53:15;2016-06-14 20:47:37;66%;5:54;:);Drank tea:Good day:Headache;83;9181
+2016-06-15 14:21:46;2016-06-15 20:46:18;59%;6:24;:);Drank coffee:Good day:Sex;81;4624
+2016-06-16 15:00:57;2016-06-16 20:54:49;53%;5:53;:|;Drank coffee:Drank tea:Good day:Sex:Tiring day;102;4210
+2016-06-17 13:18:24;2016-06-18 00:37:55;100%;11:19;:);Drank tea:Headache:Sex:Tiring day;88;3064
+2016-06-18 15:36:59;2016-06-18 22:13:17;58%;6:36;:);Drank Alcohol:Good day:Headache:Tiring day;80;3662
+2016-06-19 14:30:30;2016-06-19 16:22:20;24%;1:51;;Good day:Stressful day;;2500
+2016-06-19 16:22:51;2016-06-19 22:58:07;65%;6:35;:|;Good day:Stressful day:Tiring day;82;0
+2016-06-20 14:05:03;2016-06-20 20:50:57;56%;6:45;:);Drank tea:Sex:Tiring day;103;5892
+2016-06-21 14:33:29;2016-06-21 20:57:03;61%;6:23;:);Good day:Sex:Tiring day;92;5042
+2016-06-22 14:36:33;2016-06-22 20:58:36;59%;6:22;:);Drank coffee:Good day:Red bull:Sex;;6163
+2016-06-23 14:57:10;2016-06-23 20:37:43;61%;5:40;:);Drank coffee:Good day:Sex:Tiring day;;4701
+2016-06-24 15:12:49;2016-06-24 19:12:07;57%;3:59;:|;Drank coffee:Drank tea:Good day:Sex:Tiring day;;5718
+2016-06-24 19:13:02;2016-06-25 00:01:22;59%;4:48;:|;Drank coffee:Drank tea:Good day:Sex:Tiring day;90;0
+2016-06-25 15:25:58;2016-06-25 23:51:49;72%;8:25;:|;Cold Weather:Good day:Headache:Lazy day;;1666
+2016-06-26 13:48:35;2016-06-26 19:15:26;57%;5:26;:|;Headache:Stressful day;;3063
+2016-06-26 19:16:26;2016-06-26 22:57:19;46%;3:40;:);Headache:Stressful day;85;0
+2016-06-27 14:20:05;2016-06-27 20:38:41;65%;6:18;;Good day:Lazy day:Sex;;1811
+2016-06-28 14:03:26;2016-06-28 20:57:24;55%;6:53;:|;Drank coffee:Drank tea:Sex:Tiring day;90;6108
+2016-06-29 14:05:21;2016-06-29 20:54:06;68%;6:48;:);Cold Weather:Stressful day;82;1922
+2016-06-30 13:41:48;2016-06-30 20:50:59;83%;7:09;;Cold Weather:Drank coffee:Drank second coffee:Good day;;8136
+2016-07-01 13:58:47;2016-07-01 22:27:35;81%;8:28;:);Drank coffee:Drank tea:Good day:Sex;78;5404
+2016-07-02 14:53:03;2016-07-02 22:30:37;74%;7:37;:);Cold Weather:Good day:Lazy day:Sex;79;3176
+2016-07-03 13:45:51;2016-07-03 20:54:15;81%;7:08;:);Ate late:Good day:Lazy day:Sex;95;1170
+2016-07-04 15:46:40;2016-07-04 20:57:29;47%;5:10;:|;Cold Weather:Drank coffee:Drank second coffee:Sex:Sleeping later than 3?:Tiring day;98;7169
+2016-07-05 13:00:42;2016-07-05 20:58:32;73%;7:57;:(;Cold Weather:Drank coffee:Good day:Sex;87;6462
+2016-07-06 16:18:47;2016-07-06 21:39:31;61%;5:20;:(;Good day:Lazy day:Sex;78;1746
+2016-07-07 14:52:10;2016-07-07 20:35:50;70%;5:43;:);Ate late:Cold Weather:Drank tea:Good day:Sex;92;4470
+2016-07-08 16:50:59;2016-07-08 23:15:38;78%;6:24;;Cold Weather:Drank coffee:Drank tea:Good day:Sex:Tiring day;;5079
+2016-07-09 18:11:34;2016-07-10 00:13:18;73%;6:01;:);Cold Weather:Drank Alcohol:Headache:Sex:Sleeping later than 3?;69;2327
+2016-07-10 15:50:23;2016-07-10 20:57:24;63%;5:07;:|;Ate late:Cold Weather:Good day:Sex;99;2673
+2016-07-11 15:02:10;2016-07-11 19:32:57;40%;4:30;:|;Cold Weather:Drank coffee:Good day:Sex:Tiring day;78;4795
+2016-07-13 16:27:22;2016-07-13 22:23:12;52%;5:55;:(;Ate late:Cold Weather:Drank tea:Good day:Sex:Tiring day;77;2851
+2016-07-14 16:14:27;2016-07-14 22:27:17;62%;6:12;:|;AC while sleeping:Ate late:Cold Weather:Drank tea:Tiring day;83;6518
+2016-07-17 14:11:20;2016-07-17 21:00:46;74%;6:49;:);Ate late:Good day:Sex;83;3132
+2016-07-18 16:37:43;2016-07-18 20:57:39;45%;4:19;:|;AC while sleeping:Ate late:Cold Weather:Drank coffee:Drank second coffee:Good day:Tiring day;87;7164
+2016-07-19 16:11:06;2016-07-19 20:47:20;54%;4:36;:|;Cold Weather:Drank coffee:Sex;82;5657
+2016-07-20 15:56:12;2016-07-20 20:57:25;59%;5:01;:);Cold Weather:Drank coffee:Sex;84;4396
+2016-07-21 15:08:33;2016-07-21 20:30:03;60%;5:21;:(;Ate late:Cold Weather:Drank coffee:Drank tea:Good day:Sex;90;5284
+2016-07-22 16:13:21;2016-07-22 23:18:38;83%;7:05;:);Ate late:Cold Weather:Good day:Sex;78;3909
+2016-07-23 18:29:00;2016-07-24 01:53:10;85%;7:24;:(;Cold Weather:Good day:Sex:Tiring day;82;5258
+2016-07-24 16:35:45;2016-07-24 22:59:51;50%;6:24;:|;Ate late:Cold Weather:Good day:Lazy day:Sex;89;543
+2016-07-25 15:37:30;2016-07-25 20:50:14;58%;5:12;:(;Cold Weather:Drank coffee:Good day:Had bath before bed:Sex:Tiring day;91;2325
+2016-07-26 14:38:48;2016-07-26 20:49:52;67%;6:11;:|;Cold Weather:Drank coffee:Drank tea:Good day:Sex:Tiring day;68;5734
+2016-07-27 15:52:55;2016-07-27 20:48:38;57%;4:55;:|;Ate late:Cold Weather:Drank coffee:Drank second coffee:Sex;84;4316
+2016-07-28 08:09:37;2016-07-28 08:55:07;10%;0:45;:|;;;3636
+2016-07-28 16:08:11;2016-07-28 20:47:30;50%;4:39;:);Cold Weather:Good day:Sex;96;251
+2016-07-29 14:41:31;2016-07-29 20:28:02;64%;5:46;:);Ate late:Cold Weather:Good day:Sex;80;1426
+2016-07-30 16:59:39;2016-07-30 23:06:19;68%;6:06;:);Ate late:Cold Weather:Drank Alcohol:Drank coffee:Drank second coffee:Good day:Sex:Tiring day;77;1304
+2016-07-31 16:00:57;2016-07-31 21:40:36;60%;5:39;:);Ate late:Cold Weather:Drank tea:Good day:Sex;84;1129
+2016-08-02 15:30:31;2016-08-02 20:45:46;58%;5:15;;Cold Weather:Drank coffee:Drank second coffee:Good day:Sex;;4772
+2016-08-03 15:11:14;2016-08-03 20:47:37;63%;5:36;:(;Cold Weather:Drank coffee:Drank second coffee:Drank tea:Good day:Sex;94;6639
+2016-08-04 15:26:10;2016-08-04 20:49:10;61%;5:23;;Cold Weather:Drank coffee:Drank second coffee:Tiring day;;4993
+2016-08-05 17:04:49;2016-08-06 00:08:22;82%;7:03;:);Ate late:Cold Weather:Drank coffee:Drank second coffee:Good day:Sex:Tiring day;78;6711
+2016-08-06 16:04:30;2016-08-06 22:44:55;75%;6:40;:);Ate late:Cold Weather:Drank coffee:Drank tea:Good day:Headache:Sex;61;762
+2016-08-07 15:17:55;2016-08-07 20:45:35;64%;5:27;:);;87;2881
+2016-08-08 15:16:57;2016-08-08 20:53:12;63%;5:36;:);Cold Weather:Drank coffee:Drank second coffee:Good day:Tiring day;80;5812
+2016-08-09 15:31:01;2016-08-09 20:52:03;66%;5:21;:);Hot Weather:Tiring day;89;4607
+2016-08-10 15:13:04;2016-08-10 20:36:42;67%;5:23;:|;AC while sleeping:Drank coffee:Drank tea:Hot Weather:Sex:Tiring day;79;5385
+2016-08-11 16:28:37;2016-08-11 20:26:39;48%;3:58;:|;AC while sleeping:Drank coffee:Drank second coffee:Headache:Hot Weather:Sex:Sleeping later than 3?:Tiring day;91;5112
+2016-08-12 15:03:34;2016-08-12 21:40:21;81%;6:36;:|;Ate late:Hot Weather:Stressful day:Tiring day;93;4123
+2016-08-14 16:09:54;2016-08-14 21:50:12;71%;5:40;:|;Ate late:Good day:Hot Weather:Sex:Sleeping later than 3?:Tiring day:Worked out;76;651
+2016-08-18 15:49:23;2016-08-18 20:47:18;56%;4:57;:);Ate late:Drank coffee:Drank second coffee:Good day:Tiring day;72;662
+2016-08-19 19:25:50;2016-08-20 02:47:03;81%;7:21;:|;Ate late:Hot Weather:Sex:Sleeping later than 3?;86;4684
+2016-08-20 15:13:44;2016-08-20 21:46:05;78%;6:32;:|;Hot Weather:Stressful day;64;203
+2016-08-21 16:45:35;2016-08-21 23:20:52;69%;6:35;:);AC while sleeping:Headache:Hot Weather:Sleeping later than 3?:Stressful day:Tiring day;84;156
+2016-08-22 17:29:56;2016-08-22 23:02:26;60%;5:32;:|;Good day:Sex:Sleeping later than 3?:Tiring day;91;4810
+2016-08-23 15:38:22;2016-08-23 20:44:19;49%;5:05;:|;Cold Weather:Good day:Headache:Sex:Sleeping later than 3?:Tiring day;;4171
+2016-08-24 14:39:30;2016-08-24 20:22:28;48%;5:42;:(;Drank coffee:Drank second coffee:Hot Weather:Sex:Stressful day:Tiring day;95;4010
+2016-08-25 15:18:16;2016-08-25 20:49:18;57%;5:31;:|;Drank tea:Sleeping later than 3?:Stressful day:Tiring day;94;3964
+2016-08-26 14:09:30;2016-08-26 21:27:29;77%;7:17;:|;Ate late:Headache:Lazy day:Sex:Stressful day;89;2580
+2016-08-27 19:12:15;2016-08-28 02:15:05;79%;7:02;:|;Ate late:Cold Weather:Good day:Tiring day;75;4585
+2016-08-28 15:56:07;2016-08-28 20:42:09;45%;4:46;:);Cold Weather:Good day:Red bull:Sex;67;1744
+2016-08-29 16:12:13;2016-08-29 20:49:06;50%;4:36;:(;Drank coffee:Drank second coffee:Good day:Sex:Tiring day;82;7779
+2016-08-30 15:33:54;2016-08-30 20:50:06;61%;5:16;:);Drank coffee:Drank tea:Sex:Stressful day:Tiring day;;3876
+2016-08-31 15:57:11;2016-08-31 20:50:11;56%;4:53;:|;Cold Weather:Good day:Sex:Tiring day;91;4673
+2016-09-01 15:22:19;2016-09-01 20:47:16;54%;5:24;:|;Cold Weather:Drank coffee:Good day:Headache:Sex;;3356
+2016-09-02 17:08:59;2016-09-02 23:00:15;62%;5:51;;Cold Weather:Drank tea:Good day:Lazy day:Sex:Sleeping later than 3?:Worked out;;2633
+2016-09-03 17:26:09;2016-09-04 00:27:32;46%;7:01;:|;Ate late:Cold Weather:Drank tea:Headache:Sex:Sleeping later than 3?:Stressful day:Tiring day;75;1350
+2016-09-04 15:02:39;2016-09-04 21:12:29;67%;6:09;:|;Ate late:Cold Weather:Lazy day:Sex:Stressful day;70;446
+2016-09-05 16:08:46;2016-09-05 21:08:27;56%;4:59;:|;Cold Weather:Drank coffee:Good day:Sex;85;996
+2016-09-06 14:16:37;2016-09-06 20:39:34;67%;6:22;:);Cold Weather:Drank coffee:Drank second coffee:Drank tea:Good day:Tiring day;79;4314
+2016-09-07 15:33:01;2016-09-07 20:30:58;56%;4:57;:(;Drank Alcohol:Good day:Had bath before bed:Hot Weather:Tiring day;;4851
+2016-09-08 14:51:17;2016-09-08 21:04:37;66%;6:13;:);Drank coffee:Drank tea:Sex;78;6005
+2016-09-09 18:12:22;2016-09-10 01:52:57;81%;7:40;:);Good day:Hot Weather:Lazy day:Red bull:Sex:Sleeping later than 3?;77;734
+2016-09-10 18:08:16;2016-09-11 01:13:41;78%;7:05;:);AC while sleeping:Ate late:Drank tea:Good day:Hot Weather:Sleeping later than 3?;63;3689
+2016-09-11 15:17:42;2016-09-11 20:47:58;64%;5:30;:);AC while sleeping:Ate late:Drank tea:Hot Weather:Sex;81;1722
+2016-09-12 15:05:01;2016-09-12 20:58:27;54%;5:53;:);Ate late:Drank tea:Good day:Sex:Tiring day;71;1712
+2016-09-13 15:51:14;2016-09-13 20:52:32;58%;5:01;:(;Ate late:Good day:Headache:Sex;79;2526
+2016-09-16 14:52:49;2016-09-16 21:58:44;84%;7:05;:);Drank tea:Red bull:Sex:Stressful day:Tiring day;75;7266
+2016-09-17 16:33:27;2016-09-17 21:00:49;40%;4:27;:|;Ate late:Cold Weather:Drank tea:Good day:Lazy day:Sex;;5551
+2016-09-18 15:58:35;2016-09-18 20:52:02;54%;4:53;:|;AC while sleeping:Drank tea:Good day:Hot Weather:Sex;82;3751
+2016-09-19 13:41:49;2016-09-19 20:49:57;73%;7:08;:);Good day:Sex;64;2917
+2016-09-20 14:50:55;2016-09-20 20:29:54;61%;5:38;:|;AC while sleeping:Drank tea:Good day;;4721
+2016-09-21 14:01:50;2016-09-21 20:49:11;83%;6:47;:);Drank coffee:Drank tea:Good day;79;6246
+2016-09-22 15:34:59;2016-09-22 21:50:15;66%;6:15;;Cold Weather:Drank Alcohol:Drank coffee:Good day:Headache:Sleeping later than 3?;;6679
+2016-09-23 15:42:34;2016-09-24 00:07:34;0%;0:00;;Ate late:Cold Weather:Drank coffee:Drank tea:Good day:Sex;;5976
+2016-09-24 15:39:06;2016-09-25 02:51:15;98%;11:12;:|;Cold Weather:Good day:Sex:Tiring day;;5808
+2016-09-25 14:08:13;2016-09-25 20:47:43;67%;6:39;:);Cold Weather:Good day:Lazy day:Sex;77;3516
+2016-09-30 14:29:20;2016-10-01 00:17:00;100%;9:47;:);Headache:Sex:Stressful day;84;4090
+2016-10-01 15:24:37;2016-10-01 21:49:57;69%;6:25;:(;Ate late:Sex:Stressful day;87;1219
+2016-10-02 15:38:33;2016-10-02 21:44:33;56%;6:06;:);Cold Weather:Drank tea:Headache:Sex:Sleeping later than 3?:Stressful day:Tiring day;88;495
+2016-10-03 14:21:48;2016-10-03 21:06:18;71%;6:44;:);Drank coffee:Drank tea:Hot Weather:Sex:Tiring day;77;4825
+2016-10-04 14:39:52;2016-10-04 20:45:48;48%;6:05;:|;Ate late:Drank coffee:Drank tea:Good day:Hot Weather:Sex;69;4988
+2016-10-05 15:17:09;2016-10-05 20:47:27;46%;5:30;:|;;;5704
+2016-10-16 15:27:16;2016-10-16 21:27:55;69%;6:00;:);Drank Alcohol:Drank tea:Good day:Sex:Stressful day;95;1862
+2016-10-21 19:07:24;2016-10-21 23:55:00;54%;4:47;:);AC while sleeping:Ate late:Drank Alcohol:Good day:Headache:Hot Weather:Sex:Sleeping later than 3?:Tiring day;85;4665
+2016-10-22 14:56:07;2016-10-22 21:57:24;77%;7:01;:);Good day:Hot Weather:Lazy day:Sex;65;1669
+2016-10-23 16:12:53;2016-10-23 21:58:02;61%;5:45;:|;Good day;85;4890
+2016-10-24 14:39:55;2016-10-24 20:47:56;56%;6:08;:|;Ate late:Good day:Hot Weather:Sex:Tiring day;67;3926
+2016-10-25 14:44:25;2016-10-25 20:47:28;65%;6:03;:|;Drank coffee:Good day:Hot Weather:Sex:Tiring day;69;4662
+2016-10-26 14:56:11;2016-10-26 20:51:01;64%;5:54;:|;AC while sleeping:Drank coffee:Drank second coffee:Good day:Hot Weather:Sex;70;6483
+2016-10-27 14:27:21;2016-10-27 20:48:43;64%;6:21;:|;Good day:Sex:Stressful day:Tiring day;87;3483
+2016-10-28 14:58:16;2016-10-28 21:38:38;74%;6:40;:|;AC while sleeping:Drank coffee:Drank second coffee:Hot Weather:Sex:Stressful day;76;4731
+2016-10-29 14:46:19;2016-10-29 22:29:32;84%;7:43;:);Ate late:Drank Alcohol:Good day:Sex;86;3326
+2016-10-30 15:40:52;2016-10-30 20:49:42;56%;5:08;:);AC while sleeping:Drank coffee:Drank tea:Good day:Hot Weather:Lazy day:Sex;77;1749
+2016-11-02 13:06:51;2016-11-02 20:56:45;79%;7:49;:);Had bath before bed:Headache:Stressful day:Tiring day;100;1930
+2016-11-03 14:19:02;2016-11-03 20:55:29;82%;6:36;:|;Drank coffee:Lazy day:Red bull:Sex;;0
+2016-11-04 14:08:48;2016-11-04 20:57:45;84%;6:48;:|;AC while sleeping:Ate late:Good day:Hot Weather:Lazy day:Sex;;0
+2016-11-05 14:04:40;2016-11-05 14:40:58;8%;0:36;:|;AC while sleeping:Ate late:Drank coffee:Hot Weather:Lazy day:Stressful day;;770
+2016-11-05 14:41:25;2016-11-05 23:17:58;80%;8:36;:);AC while sleeping:Ate late:Drank coffee:Hot Weather:Lazy day:Stressful day;;0
+2016-11-06 13:53:08;2016-11-06 20:54:18;75%;7:01;:);AC while sleeping:Ate late:Drank coffee:Drank tea:Good day:Hot Weather:Lazy day:Sex:Stressful day;77;30
+2016-11-07 12:35:46;2016-11-07 19:27:54;61%;6:52;:|;AC while sleeping:Ate late:Drank coffee:Drank tea:Headache:Hot Weather:Stressful day:Tiring day;75;1740
+2016-11-08 13:09:11;2016-11-08 19:40:57;73%;6:31;:|;AC while sleeping:Ate late:Drank coffee:Good day:Hot Weather:Stressful day:Tiring day;87;1538
+2016-11-09 13:02:24;2016-11-09 19:56:43;71%;6:54;;Ate late:Drank coffee:Good day:Hot Weather;;6220
+2016-11-10 13:08:38;2016-11-10 19:49:33;72%;6:40;:);Ate late:Sex:Stressful day;77;4351
+2016-11-11 17:07:57;2016-11-11 23:08:05;66%;6:00;:|;Ate late:Drank coffee:Good day:Sex:Sleeping later than 3?;83;5539
+2016-11-12 13:21:58;2016-11-12 22:24:12;89%;9:02;:);Ate late:Cold Weather:Drank tea:Headache:Sex:Stressful day;72;503
+2016-11-13 13:55:16;2016-11-13 18:58:48;49%;5:03;:);Ate late:Cold Weather:Drank tea:Good day;73;1156
+2016-11-14 13:49:17;2016-11-14 19:15:57;52%;5:26;:);Ate late:Drank coffee:Stressful day:Tiring day;82;2475
+2016-11-15 14:21:49;2016-11-15 19:44:38;35%;5:22;:(;AC while sleeping:Ate late:Drank coffee:Hot Weather:Sex:Stressful day:Tiring day;89;4296
+2016-11-16 14:04:53;2016-11-16 19:19:54;43%;5:15;;AC while sleeping:Drank coffee:Drank second coffee:Hot Weather:Sex:Tiring day;;5614
+2016-11-17 14:04:04;2016-11-17 19:51:03;60%;5:46;;AC while sleeping:Drank coffee:Hot Weather:Stressful day;;4183
+2016-11-18 13:13:49;2016-11-18 20:07:55;78%;6:54;:);Drank coffee:Sex:Stressful day;61;3287
+2016-11-19 14:48:45;2016-11-19 22:43:23;74%;7:54;:(;AC while sleeping:Ate late:Drank coffee:Good day:Headache:Hot Weather:Lazy day:Sleeping later than 3?:Stressful day;87;1970
+2016-11-20 13:42:15;2016-11-20 20:27:52;64%;6:45;:);Ate late:Drank tea:Headache:Lazy day:Sex;68;155
+2016-11-21 14:10:29;2016-11-21 20:09:54;59%;5:59;:(;Cold Weather:Drank coffee:Drank tea:Sex:Stressful day:Tiring day;83;3097
+2016-11-22 13:53:08;2016-11-22 19:49:17;64%;5:56;:(;Cold Weather:Drank coffee:Drank tea:Good day;75;2036
+2016-11-23 14:51:39;2016-11-23 20:02:38;55%;5:10;:|;Cold Weather:Drank coffee:Drank second coffee:Good day:Sex:Sleeping later than 3?;82;5868
+2016-11-24 14:18:34;2016-11-24 19:59:01;57%;5:40;:|;Ate late:Cold Weather:Drank coffee:Headache:Tiring day;80;5781
+2016-11-25 15:25:12;2016-11-25 23:23:30;77%;7:58;:);Cold Weather:Drank coffee:Drank second coffee:Good day:Sleeping later than 3?;76;4297
+2016-11-26 14:07:47;2016-11-26 22:23:29;82%;8:15;:);Cold Weather:Drank coffee:Drank tea:Sex:Stressful day;81;553
+2016-11-27 13:56:24;2016-11-27 19:53:52;61%;5:57;:|;Ate late:Drank coffee:Drank tea:Good day:Lazy day:Sex;72;754
+2016-11-28 12:45:48;2016-11-28 19:50:33;60%;7:04;:);Ate late:Good day:Stressful day;90;2797
+2016-11-29 14:28:39;2016-11-29 19:49:37;47%;5:20;:|;Ate late:Drank coffee:Sex:Sleeping later than 3?:Stressful day:Tiring day;88;315
+2016-11-30 12:31:02;2016-11-30 19:47:30;76%;7:16;:);AC while sleeping:Drank coffee:Headache:Hot Weather:Stressful day:Tiring day;78;3928
+2016-12-01 12:37:32;2016-12-01 19:46:40;69%;7:09;:|;Cold Weather:Drank coffee:Drank second coffee:Good day:Sex;73;353
+2016-12-02 12:15:45;2016-12-02 19:48:38;69%;7:32;:);Cold Weather:Good day:Headache:Sex;75;3552
+2016-12-03 14:30:42;2016-12-03 23:04:21;72%;8:33;:|;Ate late:Cold Weather:Drank coffee:Drank second coffee:Drank tea:Headache:Lazy day:Sex:Sleeping later than 3?;68;488
+2016-12-04 14:50:17;2016-12-04 20:51:42;66%;6:01;:);Ate late:Cold Weather:Drank coffee:Drank tea:Good day:Lazy day:Sex:Stressful day;97;1243
+2016-12-05 14:00:30;2016-12-05 19:50:35;60%;5:50;:(;Ate late:Cold Weather:Drank coffee:Good day:Sex;99;2522
+2016-12-06 13:40:52;2016-12-06 19:47:21;56%;6:06;:);Cold Weather:Drank coffee:Drank tea:Good day:Sex;82;3043
+2016-12-07 12:56:54;2016-12-07 21:05:31;78%;8:08;:);Ate late:Cold Weather:Drank coffee:Good day:Had bath before bed:Tiring day;79;3707
+2016-12-08 14:05:18;2016-12-08 20:43:02;62%;6:37;:|;Ate late:Drank coffee:Good day:Lazy day:Red bull;74;2354
+2016-12-09 13:33:10;2016-12-09 21:33:17;76%;8:00;:);Drank coffee:Good day:Sex:Tiring day:Worked out;90;4323
+2016-12-11 14:02:42;2016-12-11 20:50:27;59%;6:47;:);;76;2873
+2016-12-12 14:16:24;2016-12-12 20:50:03;70%;6:33;;;;1077
+2016-12-13 14:06:09;2016-12-13 19:43:06;64%;5:36;:|;;;505
+2016-12-14 15:34:22;2016-12-14 22:00:41;64%;6:26;;Ate late:Cold Weather:Drank coffee:Red bull:Sex:Sleeping later than 3?:Tiring day;;5571
+2016-12-15 15:45:20;2016-12-15 22:45:54;67%;7:00;:|;Ate late:Cold Weather:Drank coffee:Headache:Sleeping later than 3?:Stressful day:Tiring day;81;192
+2016-12-16 14:14:34;2016-12-16 22:55:42;87%;8:41;:);Ate late:Cold Weather:Drank coffee:Good day:Headache:Sex:Sleeping later than 3?;91;3916
+2016-12-17 14:17:24;2016-12-17 21:51:57;83%;7:34;:|;Ate late:Cold Weather:Drank tea:Good day:Sex;89;4699
+2016-12-18 14:18:50;2016-12-18 21:44:26;53%;7:25;:|;Ate late:Cold Weather:Drank Alcohol:Drank tea:Good day:Had bath before bed:Sex;;2974
+2016-12-19 13:25:11;2016-12-19 19:49:10;61%;6:23;:);Ate late:Drank coffee:Sex:Tiring day;83;4547
+2016-12-20 14:57:15;2016-12-20 20:50:23;57%;5:53;:|;Drank coffee:Drank tea:Good day:Tiring day;88;8030
+2016-12-21 14:16:19;2016-12-21 19:49:56;57%;5:33;:);Drank coffee:Sex:Sleeping later than 3?:Stressful day;95;4396
+2016-12-22 14:15:52;2016-12-22 19:50:26;57%;5:34;:);Ate late:Cold Weather:Drank coffee:Drank second coffee:Good day:Sex;85;6833
+2016-12-23 14:15:58;2016-12-23 23:40:36;99%;9:24;:);Ate late:Cold Weather:Drank coffee:Drank second coffee:Sex:Stressful day:Tiring day;82;4312
+2016-12-25 14:11:20;2016-12-25 19:49:59;50%;5:38;:(;Ate late:Cold Weather:Good day:Sex;;3762
+2016-12-26 13:01:31;2016-12-26 19:47:35;65%;6:46;:);Cold Weather:Good day:Sex;74;4421
+2016-12-27 15:00:43;2016-12-27 20:39:32;59%;5:38;:|;Drank coffee:Good day:Sex:Sleeping later than 3?;76;4310
+2016-12-28 13:20:06;2016-12-28 20:30:34;41%;7:10;:);Ate late:Drank tea:Good day:Lazy day:Sex;61;929
+2016-12-29 13:44:41;2016-12-29 19:46:27;72%;6:01;;Ate late:Drank coffee:Good day:Red bull:Worked out;;2771
+2016-12-30 13:14:19;2016-12-30 19:02:56;61%;5:48;:|;Cold Weather:Good day:Worked out;84;3523
+2017-01-03 14:25:37;2017-01-03 19:46:38;61%;5:21;:|;Ate late:Drank coffee:Drank tea:Hot Weather:Tiring day;87;3287
+2017-01-04 13:56:44;2017-01-04 19:38:38;60%;5:41;:);Ate late:Drank coffee:Drank second coffee:Sex;60;6099
+2017-01-05 15:40:24;2017-01-05 21:50:21;66%;6:09;:|;Ate late:Drank coffee:Hot Weather:Sex:Sleeping later than 3?:Stressful day:Tiring day;95;7723
+2017-01-06 14:53:55;2017-01-06 21:50:01;70%;6:56;;Cold Weather:Sleeping later than 3?:Stressful day:Tiring day;;3217
+2017-01-07 13:52:04;2017-01-07 23:50:08;96%;9:58;:);Ate late:Cold Weather:Drank coffee:Good day:Sex:Sick:Tiring day;77;3734
+2017-01-08 13:59:41;2017-01-08 20:28:46;65%;6:29;;Cold Weather:Drank coffee:Good day:Red bull:Sex:Tiring day;;2291
+2017-01-09 13:24:48;2017-01-09 19:49:59;72%;6:25;;Drank coffee:Hot Weather:Sex:Tiring day;;7880
+2017-01-10 14:07:46;2017-01-10 19:47:43;64%;5:39;:);Drank coffee:Hot Weather:Sex:Tiring day:Worked out;76;5416
+2017-01-11 14:35:37;2017-01-11 20:50:19;63%;6:14;;;;7056
+2017-01-13 13:29:37;2017-01-13 20:50:07;75%;7:20;;;;2604
+2017-01-16 13:30:17;2017-01-16 14:19:27;10%;0:49;;;;3621
+2017-01-16 14:19:33;2017-01-16 20:49:44;64%;6:30;;;;0
+2017-01-17 15:06:05;2017-01-17 20:49:49;62%;5:43;;;;4839
+2017-01-18 16:39:43;2017-01-18 20:49:42;46%;4:09;;;;3252
+2017-01-19 13:36:00;2017-01-19 20:50:18;38%;7:14;;;;2874
+2017-01-20 13:58:41;2017-01-20 22:34:59;82%;8:36;:);Cold Weather:Drank coffee:Drank tea:Sex:Stressful day:Tiring day;91;4873
+2017-01-21 16:22:35;2017-01-21 19:48:57;34%;3:26;;Cold Weather:Drank tea:Good day:Lazy day:Sex:Sleeping later than 3?;;1462
+2017-01-22 13:37:15;2017-01-22 20:39:49;72%;7:02;:);Ate late:Cold Weather:Sex:Tiring day;75;1508
+2017-01-23 14:45:34;2017-01-23 19:50:02;58%;5:04;:(;Ate late:Cold Weather:Drank tea:Good day:Red bull:Sex:Sleeping later than 3?;81;4567
+2017-01-24 14:43:50;2017-01-24 19:50:16;53%;5:06;:);Ate late:Cold Weather:Drank coffee:Good day:Sex:Sleeping later than 3?:Worked out;;6303
+2017-01-25 14:41:59;2017-01-25 19:50:06;46%;5:08;;Cold Weather:Drank coffee:Good day:Had bath before bed:Sex:Sleeping later than 3?:Worked out;;6693
+2017-01-26 14:53:24;2017-01-26 17:05:57;19%;2:12;:|;Ate late:Cold Weather:Drank coffee:Good day:Lazy day:Sex:Sleeping later than 3?:Worked out;;5569
+2017-01-26 17:09:42;2017-01-26 22:30:42;0%;0:00;;Ate late:Cold Weather:Drank coffee:Lazy day:Sex:Sleeping later than 3?:Stressful day:Worked out;;0
+2017-01-27 16:08:41;2017-01-28 00:58:55;100%;8:50;:(;Cold Weather:Drank coffee:Good day:Had bath before bed:Sex:Sleeping later than 3?:Worked out;89;11423
+2017-01-28 14:52:33;2017-01-28 20:59:52;40%;6:07;;Ate late:Cold Weather:Drank coffee:Good day:Sex:Sleeping later than 3?;;279
+2017-01-29 10:40:03;2017-01-29 23:37:21;75%;12:57;:);Cold Weather:Had bath before bed:Headache:Sick:Tiring day;91;299
+2017-01-30 14:19:11;2017-01-30 21:07:28;70%;6:48;:);Cold Weather:Lazy day:Sick:Sleeping later than 3?;81;442
+2017-01-31 14:55:01;2017-01-31 21:00:19;66%;6:05;:);Lazy day:Sleeping later than 3?;78;950
+2017-02-01 14:15:46;2017-02-01 19:48:49;62%;5:33;:);Good day;69;2488
+2017-02-02 14:17:16;2017-02-02 19:47:14;62%;5:29;:(;Ate late:Cold Weather:Drank tea:Good day:Sex:Tiring day;72;6556
+2017-02-03 15:05:12;2017-02-04 00:29:54;84%;9:24;:);Ate late:Cold Weather:Drank coffee:Good day:Sleeping later than 3?;78;5381
+2017-02-04 15:07:21;2017-02-04 21:00:10;63%;5:52;;Ate late:Cold Weather:Drank Alcohol:Drank coffee:Good day:Sleeping later than 3?:Tiring day;;4792
+2017-02-06 13:53:13;2017-02-06 19:50:03;65%;5:56;:|;Ate late:Cold Weather:Had bath before bed:Sex:Stressful day:Tiring day:Worked out;75;6970
+2017-02-07 14:34:28;2017-02-07 19:50:18;60%;5:15;;Sex:Sleeping later than 3?:Tiring day;;2768
+2017-02-08 13:53:34;2017-02-08 19:50:04;63%;5:56;:);Drank coffee:Good day:Hot Weather:Tiring day:Worked out;75;7615
+2017-02-09 14:10:14;2017-02-09 19:51:25;71%;5:41;:);Drank coffee:Drank second coffee:Hot Weather:Sex:Stressful day;86;4460
+2017-02-10 15:47:53;2017-02-10 23:26:02;79%;7:38;:);Drank coffee:Drank second coffee:Good day:Sex:Sleeping later than 3?;89;4397
+2017-02-11 14:15:51;2017-02-11 20:49:57;63%;6:34;:|;Good day:Lazy day:Sex:Worked out;106;4322
+2017-02-12 16:20:53;2017-02-12 22:08:28;65%;5:47;:|;Drank coffee:Good day:Hot Weather:Lazy day:Sex:Sleeping later than 3?;84;1803
+2017-02-13 14:47:15;2017-02-13 19:48:56;52%;5:01;:);Ate late:Cold Weather:Good day:Sex:Sleeping later than 3?;;4282
+2017-02-14 14:29:14;2017-02-14 19:48:00;53%;5:18;:(;Drank coffee:Drank second coffee:Lazy day:Sex;78;5778
+2017-02-15 14:37:55;2017-02-15 19:48:37;52%;5:10;;Ate late:Drank coffee:Drank second coffee;;5808
+2017-02-16 14:25:27;2017-02-16 19:50:16;57%;5:24;:|;Drank coffee:Hot Weather:Sex;85;4078
+2017-02-17 12:55:12;2017-02-17 16:44:49;44%;3:49;:|;Drank coffee:Had bath before bed:Sex:Worked out;;6593
+2017-02-17 16:45:15;2017-02-18 00:34:33;98%;7:49;:(;Drank coffee:Had bath before bed:Sex:Sleeping later than 3?:Stressful day;83;0
+2017-02-18 14:30:46;2017-02-18 14:57:42;6%;0:26;:|;Ate late:Stressful day;;1186
+2017-02-18 15:41:05;2017-02-18 22:17:41;59%;6:36;:|;Ate late:Sleeping later than 3?:Stressful day;92;14
+2017-02-19 14:09:24;2017-02-19 19:50:11;55%;5:40;:|;Drank coffee:Drank second coffee:Lazy day:Sex:Stressful day;112;328
+2017-02-20 14:16:53;2017-02-20 20:57:44;65%;6:40;:);Drank coffee:Drank second coffee:Good day:Hot Weather:Sex:Stressful day;81;654
+2017-02-21 13:52:36;2017-02-21 20:10:19;61%;6:17;:|;Ate late:Drank coffee:Drank second coffee:Had bath before bed:Headache:Hot Weather:Stressful day:Tiring day;;6361
+2017-02-22 14:18:59;2017-02-22 20:01:26;55%;5:42;:);Ate late:Drank coffee:Good day:Had bath before bed:Hot Weather:Sex:Worked out;83;6347
+2017-02-26 14:44:52;2017-02-26 16:52:32;9%;2:07;:|;;;3345
+2017-02-26 16:52:50;2017-02-26 22:46:03;59%;5:53;:(;;83;9
+2017-02-27 13:23:22;2017-02-27 19:49:53;64%;6:26;:|;;80;2914
+2017-02-28 14:39:45;2017-02-28 21:52:46;76%;7:13;:|;;;4053
+2017-03-01 13:23:38;2017-03-01 19:50:10;72%;6:26;:|;;;4931
+2017-03-02 15:51:13;2017-03-02 17:05:00;15%;1:13;:|;;;4851
+2017-03-02 17:05:12;2017-03-02 22:48:33;63%;5:43;;;;0
+2017-03-05 14:40:38;2017-03-05 20:46:16;68%;6:05;;;;3911
+2017-03-06 14:24:50;2017-03-06 20:44:30;66%;6:19;;;;4751
+2017-03-07 15:12:49;2017-03-07 20:30:27;58%;5:17;;;;3326
+2017-03-08 15:04:16;2017-03-08 21:00:18;59%;5:56;;;;3806
+2017-03-19 16:57:49;2017-03-19 22:58:49;64%;6:00;:);Ate late:Good day:Hot Weather:Sex:Sleeping later than 3?;;0
+2017-03-20 16:28:45;2017-03-20 23:00:35;67%;6:31;:|;Ate late:Drank coffee:Good day:Had bath before bed:Headache:Hot Weather:Sleeping later than 3?:Worked out;;0
+2017-03-21 16:21:06;2017-03-21 23:00:19;69%;6:39;:(;Ate late:Drank coffee:Hot Weather:Sex:Sleeping later than 3?;;0
+2017-03-22 15:14:19;2017-03-22 22:01:05;70%;6:46;:|;AC while sleeping:Ate late:Drank coffee:Drank second coffee:Had bath before bed:Hot Weather:Worked out;;0
+2017-03-23 16:55:10;2017-03-23 22:59:00;64%;6:03;:|;Ate late:Drank coffee:Good day:Hot Weather:Sleeping later than 3?:Tiring day;;0
+2017-03-24 17:12:34;2017-03-24 23:10:36;60%;5:58;:|;Ate late:Good day:Hot Weather:Sex:Sleeping later than 3?;;0
+2017-03-25 17:16:35;2017-03-25 23:08:26;50%;5:51;:(;Ate late:Drank Alcohol:Good day:Headache:Hot Weather:Sex:Sleeping later than 3?:Worked out;;8641
+2017-03-26 16:26:44;2017-03-26 22:59:58;67%;6:33;:|;Good day:Had bath before bed:Hot Weather:Sex:Sleeping later than 3?:Tiring day:Worked out;;0
+2017-03-27 16:03:30;2017-03-27 21:57:20;63%;5:53;:);AC while sleeping:Drank coffee:Headache:Hot Weather:Sex:Stressful day:Tiring day;;0
+2017-03-28 16:59:49;2017-03-28 21:57:55;53%;4:58;:(;AC while sleeping:Ate late:Drank coffee:Headache:Hot Weather:Sick:Sleeping later than 3?:Stressful day:Tiring day;;0
+2017-04-26 14:44:38;2017-04-26 21:27:24;69%;6:42;:|;Ate late:Drank coffee:Good day:Had bath before bed:Hot Weather:Lazy day:Sex:Worked out;79;4528
+2017-04-27 16:02:51;2017-04-27 21:30:25;54%;5:27;:(;Ate late:Drank Alcohol:Drank coffee:Good day:Hot Weather:Sex:Sleeping later than 3?;;6158
+2017-04-28 16:03:34;2017-04-29 01:56:00;99%;9:52;:);Ate late:Drank coffee:Good day:Hot Weather:Sex:Sleeping later than 3?;;5454
+2017-04-30 16:04:19;2017-05-01 00:01:06;83%;7:56;:);AC while sleeping:Good day:Hot Weather:Lazy day:Sex:Sleeping later than 3?;;421
+2017-05-01 15:01:20;2017-05-01 21:48:02;69%;6:46;:|;AC while sleeping:Good day:Hot Weather:Lazy day:Sex;;385
+2017-05-02 16:38:51;2017-05-03 00:02:02;76%;7:23;:|;AC while sleeping:Ate late:Drank coffee:Good day:Hot Weather:Lazy day:Sex:Sleeping later than 3?;;3626
+2017-05-03 15:23:25;2017-05-03 22:02:13;60%;6:38;:|;AC while sleeping:Ate late:Drank coffee:Drank second coffee:Good day:Headache:Hot Weather:Sex:Sleeping later than 3?;;8823
+2017-05-04 15:05:20;2017-05-04 22:01:26;72%;6:56;:);Ate late:Drank coffee:Good day:Hot Weather:Tiring day;;5279
+2017-05-08 15:22:43;2017-05-08 21:57:51;71%;6:35;:);AC while sleeping:Drank tea:Had bath before bed:Headache:Hot Weather:Tiring day:Worked out;;4273
+2017-05-09 15:54:35;2017-05-09 23:01:06;76%;7:06;:|;AC while sleeping:Ate late:Hot Weather:Sex;;2522
+2017-05-11 15:40:59;2017-05-12 00:21:31;87%;8:40;:|;AC while sleeping:Sex:Tiring day;;3476
+2017-05-13 16:53:15;2017-05-14 01:19:33;90%;8:26;:);Ate late:Good day:Headache:Hot Weather:Sex:Sick:Sleeping later than 3?:Worked out;;4816
+2017-05-14 17:14:06;2017-05-14 23:00:16;63%;5:46;;Drank tea:Good day:Lazy day:Sex:Sleeping later than 3?;;3480
+2017-05-15 16:27:25;2017-05-15 22:55:58;67%;6:28;:);AC while sleeping:Drank coffee:Hot Weather:Sex:Stressful day;;3272
+2017-05-16 16:28:44;2017-05-16 22:24:44;0%;0:00;;AC while sleeping:Ate late:Drank coffee:Good day:Hot Weather:Sleeping later than 3?;;4801
+2017-05-17 16:13:58;2017-05-17 23:30:27;76%;7:16;:);Good day:Hot Weather:Sex:Worked out;;7194
+2017-05-18 16:15:57;2017-05-18 23:26:12;76%;7:10;:);Drank coffee:Drank tea:Good day:Sex;89;8459
+2017-05-19 17:34:32;2017-05-20 00:25:55;74%;6:51;;Ate late:Good day:Sex:Sleeping later than 3?;;6114
+2017-05-20 15:24:08;2017-05-21 00:33:02;96%;9:08;:);Ate late:Good day:Lazy day:Sex:Worked out;91;2959
+2017-05-21 16:58:14;2017-05-21 23:29:59;71%;6:31;:|;Good day:Lazy day:Sex:Sleeping later than 3?;;295
+2017-05-22 15:38:15;2017-05-22 22:51:30;79%;7:13;:|;Ate late:Drank coffee:Good day:Had bath before bed:Lazy day;;4319
+2017-05-23 15:07:15;2017-05-23 23:00:07;73%;7:52;:|;Drank coffee:Sick:Stressful day;;4668
+2017-05-24 15:12:43;2017-05-24 23:30:16;79%;8:17;:);Headache:Sick;;2512
+2017-05-25 15:36:53;2017-05-25 21:59:03;65%;6:22;:|;AC while sleeping:Good day:Hot Weather:Lazy day;;4218
+2017-05-26 17:04:48;2017-05-27 02:05:07;100%;9:00;:|;Ate late:Good day:Headache:Sleeping later than 3?;;4993
+2017-05-27 16:19:43;2017-05-28 02:11:40;97%;9:51;:);Ate late:Good day:Lazy day:Sex:Sleeping later than 3?;;2236
+2017-05-28 16:19:35;2017-05-28 23:30:02;76%;7:10;:|;Ate late:Good day:Had bath before bed:Lazy day:Sex:Worked out;;2186
+2017-05-29 15:30:26;2017-05-29 23:15:02;80%;7:44;:|;Drank coffee:Ramadan:Sex:Stressful day;;4251
+2017-05-30 15:22:11;2017-05-30 23:15:03;82%;7:52;:);AC while sleeping:Ate late:Good day:Headache:Ramadan:Red bull:Sex;;5238
+2017-05-31 17:16:20;2017-06-01 00:17:53;74%;7:01;:);Drank Alcohol:Drank coffee:Good day:Ramadan:Sex:Sick:Sleeping later than 3?;;6911
+2017-06-01 15:31:44;2017-06-01 22:42:41;79%;7:10;:|;Ate late:Good day:Had bath before bed:Headache:Ramadan:Sex:Worked out;;5489
+2017-06-02 15:51:56;2017-06-03 00:35:23;90%;8:43;:|;Ate late:Drank coffee:Good day:Had bath before bed:Ramadan:Sex:Sleeping later than 3?;83;4417
+2017-06-03 16:25:29;2017-06-03 23:55:03;81%;7:29;:);Ate late:Good day:Lazy day:Ramadan:Sex:Sleeping later than 3?;86;1912
+2017-06-04 16:53:20;2017-06-04 23:54:51;66%;7:01;:);AC while sleeping:Drank tea:Good day:Hot Weather:Lazy day:Ramadan:Sex:Sleeping later than 3?;;1991
+2017-06-05 16:37:54;2017-06-06 00:05:46;85%;7:27;:);Ate late:Drank coffee:Ramadan:Sleeping later than 3?;87;4657
+2017-06-06 17:06:34;2017-06-06 23:36:46;75%;6:30;:|;Ate late:Drank coffee:Good day:Had bath before bed:Headache:Ramadan:Sleeping later than 3?;;5558
+2017-06-07 17:06:21;2017-06-07 23:34:46;74%;6:28;:);Ate late:Drank coffee:Ramadan:Sleeping later than 3?:Stressful day:Tiring day;65;5293
+2017-06-08 16:45:25;2017-06-09 00:33:45;89%;7:48;:);Good day:Ramadan:Sex:Sleeping later than 3?;90;3745
+2017-06-10 16:14:18;2017-06-11 00:01:14;88%;7:46;;Good day:Ramadan:Sleeping later than 3?;;5462
+2017-06-11 16:49:49;2017-06-11 23:41:06;75%;6:51;:);Cold Weather:Good day:Ramadan;67;4344
+2017-06-12 15:51:34;2017-06-12 23:34:52;78%;7:43;:);Ate late:Cold Weather:Good day:Ramadan:Tiring day;;3137
+2017-06-13 16:51:26;2017-06-13 23:44:48;76%;6:53;:|;Ate late:Cold Weather:Drank coffee:Good day:Ramadan:Sex:Sleeping later than 3?:Tiring day;;7119
+2017-06-14 16:07:28;2017-06-14 23:12:10;61%;7:04;:);Ate late:Cold Weather:Drank coffee:Good day:Had bath before bed:Ramadan:Tiring day;;4951
+2017-06-15 16:42:19;2017-06-15 23:49:04;81%;7:06;:);Cold Weather:Drank coffee:Good day:Had bath before bed:Ramadan:Sleeping later than 3?:Tiring day;;4957
+2017-06-16 16:03:35;2017-06-16 18:47:25;31%;2:43;:|;Ate late:Drank coffee:Good day:Had bath before bed:Headache:Ramadan:Stressful day:Tiring day;;4735
+2017-06-18 18:52:34;2017-06-18 23:56:47;57%;5:04;:|;Ate late:Drank coffee:Good day:Had bath before bed:Ramadan:Sex:Sleeping later than 3?:Tiring day;94;4820
+2017-06-19 15:12:22;2017-06-19 23:56:27;98%;8:44;:);Ate late:Drank coffee:Headache:Ramadan:Sex:Tiring day;73;3448
+2017-06-20 15:48:05;2017-06-20 23:54:52;89%;8:06;:);Ate late:Cold Weather:Good day:Headache:Ramadan:Tiring day;74;2810
+2017-06-21 17:11:57;2017-06-21 23:55:53;72%;6:43;:);Ate late:Cold Weather:Drank coffee:Good day:Ramadan:Sex:Sleeping later than 3?;83;4041
+2017-06-22 19:31:35;2017-06-23 01:49:32;66%;6:17;:|;Ate late:Cold Weather:Drank coffee:Good day:Headache:Sleeping later than 3?;80;5589
+2017-06-23 13:36:26;2017-06-24 00:28:12;49%;10:51;:);Ate late:Drank Alcohol:Drank coffee:Drank tea:Good day:Headache:Ramadan:Sex:Tiring day;86;2753
+2017-06-24 15:18:05;2017-06-25 00:54:06;59%;9:36;:);Ate late:Drank Alcohol:Drank coffee:Good day:Ramadan:Sex;86;0
+2017-06-25 17:35:31;2017-06-25 22:08:15;43%;4:32;:|;Ate late:Drank Alcohol:Good day:Had bath before bed:Headache:Sex:Sleeping later than 3?;;0
+2017-06-26 15:41:52;2017-06-26 23:54:48;73%;8:12;:|;Drank coffee:Good day:Headache:Sick;76;0
+2017-06-27 16:26:47;2017-06-27 23:19:31;47%;6:52;:);Ate late:Drank coffee:Good day:Sex:Sleeping later than 3?;;0
+2017-06-28 16:30:55;2017-06-28 23:40:51;66%;7:09;:);Ate late:Drank coffee:Good day:Headache:Sleeping later than 3?:Tiring day;80;0
+2017-06-29 15:46:11;2017-06-29 21:29:17;60%;5:43;:|;Drank coffee:Sex:Tiring day;84;0
+2017-06-30 17:01:57;2017-07-01 00:28:12;75%;7:26;:);Ate late:Sex:Sleeping later than 3?;;0
+2017-07-01 16:50:26;2017-07-02 00:25:08;81%;7:34;:);Ate late:Drank tea:Good day:Headache:Sex:Sleeping later than 3?;107;0
+2017-07-02 14:43:58;2017-07-02 23:27:56;90%;8:43;:|;Drank tea:Good day:Had bath before bed:Headache:Hot Weather:Sex:Sick:Tiring day;81;0
+2017-07-03 15:29:22;2017-07-03 21:30:59;58%;6:01;:(;Had bath before bed:Headache:Sick;113;0
+2017-07-06 16:11:59;2017-07-06 23:26:50;78%;7:14;:);Ate late:Drank coffee:Had bath before bed:Headache:Hot Weather:Red bull:Sex:Sick:Sleeping later than 3?:Stressful day:Tiring day;87;0
+2017-07-10 17:04:57;2017-07-10 23:29:00;69%;6:24;:);Ate late:Drank coffee:Good day:Sex:Sleeping later than 3?;75;0
+2017-07-11 17:13:02;2017-07-12 00:00:06;77%;6:47;;Drank Alcohol:Drank coffee:Good day:Sex:Sleeping later than 3?;;0
+2017-07-13 16:35:34;2017-07-13 23:48:44;77%;7:13;:);Ate late:Cold Weather:Drank coffee:Good day:Headache:Lazy day:Sex:Sleeping later than 3?;60;0
+2017-07-15 16:50:05;2017-07-15 17:21:11;6%;0:31;:|;Ate late:Cold Weather:Drank coffee:Good day:Lazy day:Sex;;0
+2017-07-15 17:22:26;2017-07-15 22:57:58;59%;5:35;:);Cold Weather:Drank coffee:Sex:Stressful day;99;0
+2017-07-16 16:35:02;2017-07-16 23:29:47;74%;6:54;:|;Ate late:Cold Weather:Drank tea:Good day:Sex:Sleeping later than 3?:Tiring day;;0
+2017-07-17 16:54:16;2017-07-17 23:53:39;74%;6:59;:|;Cold Weather:Drank coffee:Drank tea:Good day:Sex:Sleeping later than 3?:Tiring day;78;0
+2017-07-18 16:59:27;2017-07-19 00:00:12;73%;7:00;:);Ate late:Cold Weather:Drank coffee:Drank tea:Sex:Sleeping later than 3?;74;0
+2017-07-19 15:57:02;2017-07-19 22:49:42;73%;6:52;:);Ate late:Cold Weather:Drank coffee:Good day;91;0
+2017-07-20 17:56:13;2017-07-20 23:56:18;63%;6:00;:|;Headache:Sleeping later than 3?:Tiring day;69;0
+2017-07-21 15:46:31;2017-07-22 02:24:13;95%;10:37;:);Drank coffee:Good day:Had bath before bed:Sex;96;0
+2017-07-22 18:14:08;2017-07-23 00:09:46;63%;5:55;:|;;;0
+2017-07-23 17:23:54;2017-07-24 00:01:36;74%;6:37;:);Ate late:Drank tea:Good day:Headache:Lazy day:Sex:Sleeping later than 3?;76;0
+2017-07-24 20:31:30;2017-07-25 03:41:32;80%;7:10;:|;AC while sleeping:Drank coffee:Headache:Sleeping later than 3?;89;0
+2017-07-25 16:11:53;2017-07-25 22:03:03;61%;5:51;:);Drank tea:Good day:Lazy day:Sex;82;0
+2017-07-26 17:18:39;2017-07-27 00:39:56;79%;7:21;:|;Good day:Lazy day;80;0
+2017-07-27 16:54:35;2017-07-28 00:43:09;90%;7:48;:);Drank tea:Good day:Sex:Sleeping later than 3?;99;0
+2017-07-28 17:04:17;2017-07-29 00:21:05;76%;7:16;:);Good day:Headache:Hot Weather:Lazy day:Sex:Sleeping later than 3?;71;0
+2017-07-29 18:19:49;2017-07-30 04:02:42;91%;9:42;:);Ate late:Drank tea:Good day:Had bath before bed:Sleeping later than 3?;84;0
+2017-07-30 17:31:01;2017-07-31 02:44:22;90%;9:13;:(;Drank tea:Headache:Sex:Sleeping later than 3?;91;0
+2017-07-31 17:17:01;2017-08-01 00:15:29;73%;6:58;:|;Good day:Headache:Sex:Sleeping later than 3?;78;0
+2017-08-01 16:45:40;2017-08-02 00:14:57;77%;7:29;:(;Good day:Sex:Sleeping later than 3?;;0
+2017-08-03 15:45:24;2017-08-03 19:49:26;42%;4:04;:|;AC while sleeping:Ate late:Drank coffee:Headache:Hot Weather:Sex:Stressful day;111;0
+2017-08-07 18:00:10;2017-08-07 20:35:10;0%;0:00;;Ate late:Drank Alcohol:Good day:Headache:Sex:Sleeping later than 3?;;0
+2017-08-08 17:58:59;2017-08-09 00:33:25;71%;6:34;:);Ate late:Drank coffee:Good day:Hot Weather:Sleeping later than 3?;93;0
+2017-08-11 18:39:59;2017-08-12 02:15:21;80%;7:35;:);Ate late:Good day:Headache:Lazy day:Sex:Sleeping later than 3?;79;0
+2017-08-12 16:46:25;2017-08-13 02:36:41;95%;9:50;:);Good day:Headache:Red bull:Sleeping later than 3?;88;0
+2017-08-13 19:52:40;2017-08-14 01:53:14;68%;6:00;:(;Drank Alcohol:Good day:Headache:Sex:Sleeping later than 3?;91;0
+2017-08-14 19:38:18;2017-08-15 04:13:29;78%;8:35;:|;Cold Weather:Good day:Had bath before bed:Headache:Sleeping later than 3?:Tiring day;101;0
+2017-08-26 01:04:57;2017-08-26 08:33:19;75%;7:28;:);Cold Weather:Good day:Sleeping later than 3?;101;0
+2017-08-27 01:07:47;2017-08-27 09:02:35;81%;7:54;:);Ate late:Cold Weather:Drank Alcohol:Drank coffee:Good day:Sleeping later than 3?:Worked out;91;0
+2017-08-28 00:42:09;2017-08-28 06:20:20;41%;5:38;:);Ate late:Cold Weather:Good day:Red bull:Worked out;80;0
+2017-08-29 00:48:11;2017-08-29 07:27:24;66%;6:39;:);Cold Weather:Drank coffee:Good day:Headache:Red bull:Sex:Sleeping later than 3?:Stressful day:Tiring day;88;0
+2017-08-30 01:34:33;2017-08-30 07:32:16;68%;5:57;:|;Ate late:Cold Weather:Drank coffee:Drank second coffee:Good day:Headache:Sex:Sleeping later than 3?:Stressful day:Tiring day;85;0
+2017-09-04 02:04:49;2017-09-04 07:29:59;62%;5:25;:|;Cold Weather:Drank coffee:Good day:Headache:Sex:Sleeping later than 3?;82;0
+2017-09-05 01:44:20;2017-09-05 10:26:21;0%;0:00;;Drank coffee:Good day:Sleeping later than 3?:Stressful day;;0
+2017-09-06 02:01:52;2017-09-06 07:00:53;0%;0:00;;Ate late:Headache:Lazy day:Sex:Sleeping later than 3?:Stressful day;;0
+2017-09-07 00:16:12;2017-09-07 07:24:05;73%;7:07;:(;Cold Weather:Drank tea:Good day:Sex;;0
+2017-09-08 01:57:35;2017-09-08 09:26:59;90%;7:29;:);Ate late:Cold Weather:Good day:Sex:Sleeping later than 3?;82;0
+2017-09-09 00:24:18;2017-09-09 09:27:43;88%;9:03;:|;Drank Alcohol:Good day:Headache;78;0
+2017-09-11 03:22:34;2017-09-11 10:30:12;63%;7:07;:|;Ate late:Cold Weather:Good day:Red bull:Sex:Sleeping later than 3?:Tiring day;70;0
+2017-09-12 03:40:10;2017-09-12 10:30:28;55%;6:50;:(;Ate late:Cold Weather:Sex:Sleeping later than 3?:Stressful day;80;0
+2017-09-13 02:15:43;2017-09-13 08:15:05;45%;5:59;:|;Drank coffee:Drank second coffee:Had bath before bed:Headache:Hot Weather:Red bull:Sleeping later than 3?:Stressful day:Tiring day;74;0
+2017-09-14 01:40:57;2017-09-14 08:33:53;64%;6:52;:|;Ate late:Hot Weather:Sex;;0
+2017-09-15 01:05:21;2017-09-15 08:29:29;64%;7:24;:|;Ate late:Drank Alcohol:Good day:Hot Weather:Sex;80;0
+2017-09-16 04:18:56;2017-09-16 12:50:25;84%;8:31;:(;Drank Alcohol:Good day:Headache:Sex:Sleeping later than 3?:Tiring day;;0
+2017-09-17 03:37:22;2017-09-17 13:14:07;98%;9:36;:);AC while sleeping:Good day:Headache:Hot Weather:Sex:Sleeping later than 3?;;0
+2017-09-18 03:17:29;2017-09-18 10:16:07;74%;6:58;:(;AC while sleeping:Good day:Lazy day:Sex:Sleeping later than 3?;64;0
+2017-09-19 03:31:19;2017-09-19 10:18:55;68%;6:47;:|;Cold Weather:Drank Alcohol:Drank coffee:Good day:Lazy day:Sex:Sleeping later than 3?;82;0
+2017-09-20 02:48:57;2017-09-20 07:15:00;35%;4:26;:(;AC while sleeping:Cold Weather:Good day:Red bull:Sleeping later than 3?;;0
+2017-09-21 03:13:09;2017-09-21 09:01:50;60%;5:48;:);Ate late:Cold Weather:Headache:Sex:Sleeping later than 3?;78;0
+2017-09-22 04:18:55;2017-09-22 11:30:03;84%;7:11;:|;Ate late:Cold Weather:Drank coffee:Sleeping later than 3?;86;0
+2017-09-26 03:38:49;2017-09-26 11:15:32;58%;7:36;:|;Headache:Red bull:Sick:Sleeping later than 3?:Stressful day:Tiring day;88;0
+2017-09-27 02:21:03;2017-09-27 03:58:14;7%;1:37;:|;AC while sleeping:Ate late:Headache:Hot Weather:Red bull:Sick:Tiring day;;0
+2017-09-27 03:58:51;2017-09-27 11:19:06;70%;7:20;:(;AC while sleeping:Hot Weather:Red bull:Sleeping later than 3?:Tiring day;88;0
+2017-09-28 04:19:22;2017-09-28 11:29:32;71%;7:10;:);Drank Alcohol:Good day:Headache:Hot Weather:Lazy day:Sex:Sick:Sleeping later than 3?;85;0
+2017-09-29 04:34:56;2017-09-29 12:32:24;86%;7:57;:|;Cold Weather:Good day:Headache:Sex:Sleeping later than 3?;79;0
+2017-10-02 03:09:53;2017-10-02 09:48:18;74%;6:38;:);Cold Weather:Drank coffee:Good day:Headache:Sex:Sleeping later than 3?;97;0
+2017-10-03 02:44:22;2017-10-03 09:50:33;76%;7:06;:);Ate late:Cold Weather:Drank Alcohol:Drank coffee:Good day:Headache:Sex:Sleeping later than 3?;86;0
+2017-10-04 02:11:10;2017-10-04 09:57:19;86%;7:46;:);Ate late:Cold Weather:Drank coffee:Sleeping later than 3?:Stressful day:Tiring day;79;0
+2017-10-05 02:13:38;2017-10-05 10:03:51;85%;7:50;:);Cold Weather:Good day:Tiring day;93;0
+2017-10-06 03:16:41;2017-10-06 10:00:26;75%;6:43;;Drank coffee:Drank second coffee:Good day:Headache:Hot Weather:Lazy day:Sex:Sleeping later than 3?;;0
+2017-10-09 04:21:17;2017-10-09 11:32:50;80%;7:11;:|;AC while sleeping:Drank coffee:Headache:Hot Weather:Lazy day:Sex:Sleeping later than 3?;107;0
+2017-10-10 02:08:04;2017-10-10 08:00:13;64%;5:52;:(;AC while sleeping:Ate late:Cold Weather:Red bull:Sex;88;0
+2017-10-12 01:38:57;2017-10-12 08:55:15;81%;7:16;:|;Cold Weather:Drank Alcohol:Good day;90;0
+2017-10-13 01:31:20;2017-10-13 08:48:27;81%;7:17;:);Cold Weather:Drank coffee:Good day:Sex;70;0
+2017-10-13 23:57:11;2017-10-14 05:50:08;59%;5:52;;Ate late:Cold Weather:Good day:Headache:Red bull:Sex:Stressful day:Tiring day;;0
+2017-10-15 03:27:19;2017-10-15 10:28:56;77%;7:01;:|;Cold Weather:Drank Alcohol:Headache:Sex:Sleeping later than 3?;;0
+2017-10-16 01:15:18;2017-10-16 08:34:09;81%;7:18;:);Headache:Lazy day:Sex;;0
+2017-10-17 01:55:23;2017-10-17 08:59:00;77%;7:03;:);Ate late:Cold Weather:Good day:Headache:Red bull;69;0
+2017-10-18 02:02:31;2017-10-18 08:00:10;61%;5:57;:);Ate late:Cold Weather:Drank coffee:Good day:Headache:Stressful day;83;0
+2017-10-19 02:14:15;2017-10-19 10:34:24;89%;8:20;:);Ate late:Cold Weather:Drank coffee:Good day:Headache:Sex:Tiring day;89;0
+2017-10-20 05:23:06;2017-10-20 12:53:29;78%;7:30;:);Cold Weather:Drank Alcohol:Drank coffee:Good day:Headache:Sex:Sleeping later than 3?;91;0
+2017-10-21 01:16:30;2017-10-21 07:29:28;66%;6:12;:);Ate late:Cold Weather:Good day;82;0
+2017-10-22 04:15:15;2017-10-22 13:23:04;100%;9:07;:|;Cold Weather:Drank coffee:Good day:Headache:Red bull:Sleeping later than 3?:Tiring day;72;0
+2017-10-23 02:38:21;2017-10-23 09:24:09;69%;6:45;:|;AC while sleeping:Ate late:Headache:Hot Weather:Lazy day:Sex:Stressful day;;0
+2017-10-24 01:34:15;2017-10-24 08:29:53;75%;6:55;;Stressful day;;0
+2017-10-25 04:55:43;2017-10-25 11:58:48;75%;7:03;:|;AC while sleeping:Headache:Hot Weather:Sleeping later than 3?:Stressful day;84;0
+2017-10-26 01:50:45;2017-10-26 09:02:07;78%;7:11;:);Ate late:Headache:Stressful day;80;0
+2017-10-27 03:44:09;2017-10-27 11:29:56;83%;7:45;:|;Ate late:Cold Weather:Drank coffee:Good day:Headache:Sleeping later than 3?:Stressful day;77;0
+2017-10-28 03:48:14;2017-10-28 11:45:59;88%;7:57;:(;Cold Weather:Drank Alcohol:Drank coffee:Good day:Headache:Sleeping later than 3?;;0
+2017-10-29 01:58:27;2017-10-29 10:26:38;89%;8:28;:);Good day:Lazy day:Sex;69;0

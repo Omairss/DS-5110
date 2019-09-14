@@ -1,0 +1,111 @@
+---
+title: "HW2 Part C"
+author: "Omair Shafi Ahmed"
+date: "10/10/2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+Importing Data
+```{r}
+if(!require('ggplot2')) install.packages("ggplot2",repos = "http://cran.us.r-project.org")
+if(!require('dplyr')) install.packages("dplyr",repos = "http://cran.us.r-project.org")
+if(!require('RMySQL')) install.packages("RMySQL",repos = "http://cran.us.r-project.org")
+if(!require('dbplyr')) install.packages("dbplyr",repos = "http://cran.us.r-project.org")
+if(!require('rstudioapi')) install.packages("rstudioapi",repos = "http://cran.us.r-project.org")
+
+
+
+library('ggplot2')
+library('dplyr')
+library ('RMySQL')
+library('dbplyr')
+library('rstudioapi')
+```
+
+Connecting to DB
+
+```{r}
+
+con <- DBI::dbConnect(RMySQL::MySQL(), 
+  host = "localhost",
+  socket = "/Applications/MAMP/tmp/mysql/mysql.sock",
+  port= 8889,
+  user = "root",
+  #password = rstudioapi::askForPassword("Database password")
+  password = "root",
+  db = "DBLP"
+)
+
+authors <- tbl(con, "authors")
+general <- tbl(con, "general")
+
+```
+
+
+## Problem 5
+
+Filter the data to include only the authors for whom a gender was predicted with a probability of 0.95 or greater, and then create a bar plot showing the number of distinct male and female authors in the dataset.
+
+```{r}
+
+
+
+filtered_authors <- authors %>% filter(prob > 0.95, prob < 1) %>%
+                    collect()
+
+filtered_authors %>%
+  group_by(gender) %>%
+  count() %>%
+  ggplot() +
+    geom_col(mapping = aes(x= gender, y= n)) +
+    xlab("Gender") +
+    ylab("Papers published")
+
+```
+It appears as if males authors generally dominate in numbers of papers published.
+
+
+##Problem 6
+Again including only the authors for whom a gender was predicted with a probability of 0.95 or greater, create a stacked bar plot showing the number of distinct male and female authors published each year.
+
+
+```{r}
+
+filtered_authors %>%
+  inner_join(general, key = 'k', copy=TRUE) %>%
+  select(gender, year) %>%
+  group_by(gender, year) %>%
+  count() %>%
+  ggplot() +
+    geom_col(mapping = aes(x = year, y = n, fill = gender)) +
+    xlab("Year") +
+    ylab("Papers published")
+
+```
+
+The proportion of female scientists publishing papers have increased in recent years
+
+## Problem 7
+
+```{r}
+filtered_authors %>%
+  inner_join(general, key = 'k', copy = TRUE) %>%
+  select(gender, year) %>%
+  group_by(year) %>%
+  summarise(`Male` = mean(gender == "M"),
+            `Female` = mean(gender == "F")) %>%
+  gather(-year, key = "Gender", value = "val") %>%
+  ggplot() +
+    geom_col(mapping = aes(x = year, y = val, fill = Gender)) +
+    xlab("Year") +
+    ylab("Gender Proportions")
+```
+
+Here, the increase in the proportion of female authors publishing papers is clearly visible.
+
+

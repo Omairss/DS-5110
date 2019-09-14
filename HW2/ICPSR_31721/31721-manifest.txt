@@ -1,0 +1,60 @@
+File Manifest for ICPSR 31721
+
+Bradford, Judith B. Virginia Transgender Health Initiative Study (THIS),
+2005-2006. ICPSR31721-v1. Richmond, VA: Virginia Commonwealth University.
+Community Health Research Initiative/Ann Arbor, MI: Inter-university
+Consortium for Political and Social Research [distributors], 2015-09-24.
+http://doi.org/10.3886/ICPSR31721.v1
+
+
+Study-level Documentation
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    31721-descriptioncitation.pdf       -       -         -       2015-09-24  -
+
+    31721-manifest.txt                  -       -         -       daily       -
+
+    31721-Questionnaire.pdf             -       -         -       2015-09-23  75e662bb0a13c1d887e070474580aa1e
+
+
+DS0001 Public Use Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    31721-0001-Codebook.pdf             -       -         -       2015-09-23  c0b67c07b4ef63b49f12bce1545fe68b
+
+    31721-0001-Data.dta                 -       350       634     2015-09-23  37f2286c45c482a3313238f5612b56ce
+
+    31721-0001-Data.rda                 -       350       634     2015-09-23  b8725c6ff2710c13b290ec8658ca2d66
+
+    31721-0001-Data.sav                 -       350       634     2015-09-23  e8cd86999b951b3af49ad2cf3ffdbdb3
+
+    31721-0001-Data.stc                 -       350       634     2015-09-23  3914ba10435a8750736d5198ee0e019f
+
+    31721-0001-Data.tsv                 -       350       634     2015-09-23  bcbfd7f0a074989ffa6fff5c7a169ab0
+
+    31721-0001-Data.txt                 1986    350       634     2015-09-23  730fa2accc991a99081a44ed6a5a91e5
+
+    31721-0001-Setup.dct                -       -         -       2015-09-23  efbba0d3677702f88752f8b2d095da03
+
+    31721-0001-Setup.do                 -       -         -       2015-09-23  f549d7957c9b4317acd5b3ecae63951c
+
+    31721-0001-Setup.sas                -       -         -       2015-09-23  bb44a5b7fe83f5f29a59d18003fe358d
+
+    31721-0001-Setup.sps                -       -         -       2015-09-23  92fa22edfec574d48799280a73a66fa0
+
+    31721-0001-Supplemental_syntax.do   -       -         -       2015-09-23  ca174c293b135c923682f7a65bf9ced4
+
+    31721-0001-Supplemental_syntax.sas  -       -         -       2015-09-23  820c880580d45ac883e656b874c483cc
+
+
+DS0002 Restricted Use Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    31721-0002-Codebook.pdf             -       -         -       2015-09-23  7015990201db57a71aa0bb88999aef2b
+

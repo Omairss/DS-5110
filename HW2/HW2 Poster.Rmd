@@ -1,0 +1,68 @@
+---
+title: "HW2 Poster"
+author: "Omair Shafi Ahmed"
+date: "10/9/2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## Importing Libraries
+
+```{r}
+
+if(!require(ggplot2)) install.packages("ggplot2",repos = "http://cran.us.r-project.org")
+
+if(!require(tidyverse)) install.packages("tidyverse",repos = "http://cran.us.r-project.org")
+
+if(!require('dplyr')) install.packages("tidyverse",repos = "http://cran.us.r-project.org")
+
+library('scales')
+library('tidyverse')
+library('ggplot2')
+library('dplyr')
+
+
+```
+
+
+## Reading Data + Sanity Checks
+
+```{r}
+
+fundamentals <- read_csv('/Users/omairs/Documents/Masters/DS 5110/HW2/data/nyse/fundamentals.csv')
+
+fundamentals <- fundamentals %>%
+                na.omit() %>% filter(`For Year` > 2000)
+
+fundamentals
+
+
+```
+
+
+##Plotting the required information
+
+```{r}
+
+ggplot(fundamentals,aes(x = `Total Assets`, y = `Total Liabilities`)) +
+  geom_point(aes(colour = `Net Income`), alpha = 0.5) +
+  scale_colour_gradient2(low="blue", high="red", mid="grey", labels = comma) + 
+  geom_smooth() + 
+  geom_segment(aes(x=0, y=0, xend=370000000000, yend=370000000000), color="grey") +
+  #xlim(0, 80000000000) + ylim(0, 80000000000) + 
+  facet_wrap(~ `For Year`) +
+  theme(axis.text.x = element_text(angle = 60, hjust = 1)) +
+  scale_x_continuous(labels = comma) +
+  scale_y_continuous(labels = comma)
+
+```
+
+
+```{r}
+ggsave('/Users/omairs/Documents/Masters/DS 5110/HW2/plots/buying_opportunities.png', width=11, height=7)
+```
+
